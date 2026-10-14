@@ -1,0 +1,3026 @@
+[
+  {
+    "hanzi": "ciao",
+    "pinyin": "chao",
+    "es": "hola; chau",
+    "level": 1,
+    "ex_zh": "Ciao, Marta.",
+    "ex_py": "chao, marta",
+    "ex_es": "Hola, Marta."
+  },
+  {
+    "hanzi": "buongiorno",
+    "pinyin": "buon yorno",
+    "es": "buen día",
+    "level": 1,
+    "ex_zh": "Buongiorno, signora Rossi.",
+    "ex_py": "buon yorno, siñora rosi",
+    "ex_es": "Buen día, señora Rossi."
+  },
+  {
+    "hanzi": "buonasera",
+    "pinyin": "buona sera",
+    "es": "buenas tardes",
+    "level": 1,
+    "ex_zh": "Buonasera a tutti.",
+    "ex_py": "buona sera a tuti",
+    "ex_es": "Buenas tardes a todos."
+  },
+  {
+    "hanzi": "buonanotte",
+    "pinyin": "buona note",
+    "es": "buenas noches",
+    "level": 1,
+    "ex_zh": "Buonanotte e sogni d'oro.",
+    "ex_py": "buona note e soñi doro",
+    "ex_es": "Buenas noches y dulces sueños."
+  },
+  {
+    "hanzi": "arrivederci",
+    "pinyin": "arrivederchi",
+    "es": "hasta luego",
+    "level": 1,
+    "ex_zh": "Arrivederci, a domani.",
+    "ex_py": "arrivederchi, a domani",
+    "ex_es": "Hasta luego, hasta mañana."
+  },
+  {
+    "hanzi": "grazie",
+    "pinyin": "gratsie",
+    "es": "gracias",
+    "level": 1,
+    "ex_zh": "Grazie mille.",
+    "ex_py": "gratsie mile",
+    "ex_es": "Muchas gracias."
+  },
+  {
+    "hanzi": "prego",
+    "pinyin": "prego",
+    "es": "de nada; adelante",
+    "level": 1,
+    "ex_zh": "Prego, si accomodi.",
+    "ex_py": "prego, si akomodi",
+    "ex_es": "Por favor, siéntese."
+  },
+  {
+    "hanzi": "favore",
+    "pinyin": "favore",
+    "es": "favor",
+    "level": 1,
+    "ex_zh": "Un caffè, per favore.",
+    "ex_py": "un kafe, per favore",
+    "ex_es": "Un café, por favor."
+  },
+  {
+    "hanzi": "scusa",
+    "pinyin": "skusa",
+    "es": "perdón (vos)",
+    "level": 1,
+    "ex_zh": "Scusa, non ho capito.",
+    "ex_py": "skusa, non o kapito",
+    "ex_es": "Perdón, no entendí."
+  },
+  {
+    "hanzi": "scusi",
+    "pinyin": "skusi",
+    "es": "perdón (usted)",
+    "level": 1,
+    "ex_zh": "Scusi, dov'è la stazione?",
+    "ex_py": "skusi, dove la statsione",
+    "ex_es": "Disculpe, ¿dónde está la estación?"
+  },
+  {
+    "hanzi": "piacere",
+    "pinyin": "piachere",
+    "es": "gusto; placer",
+    "level": 1,
+    "ex_zh": "Piacere di conoscerti.",
+    "ex_py": "piachere di konosherti",
+    "ex_es": "Mucho gusto."
+  },
+  {
+    "hanzi": "bene",
+    "pinyin": "bene",
+    "es": "bien",
+    "level": 1,
+    "ex_zh": "Sto bene, grazie.",
+    "ex_py": "sto bene, gratsie",
+    "ex_es": "Estoy bien, gracias."
+  },
+  {
+    "hanzi": "male",
+    "pinyin": "male",
+    "es": "mal",
+    "level": 1,
+    "ex_zh": "Oggi sto male.",
+    "ex_py": "oyi sto male",
+    "ex_es": "Hoy estoy mal."
+  },
+  {
+    "hanzi": "casa",
+    "pinyin": "kasa",
+    "es": "casa",
+    "level": 1,
+    "ex_zh": "La casa è piccola.",
+    "ex_py": "la kasa e pikola",
+    "ex_es": "La casa es pequeña."
+  },
+  {
+    "hanzi": "cena",
+    "pinyin": "chena",
+    "es": "cena",
+    "level": 1,
+    "ex_zh": "La cena è alle otto.",
+    "ex_py": "la chena e ale oto",
+    "ex_es": "La cena es a las ocho."
+  },
+  {
+    "hanzi": "gelato",
+    "pinyin": "yelato",
+    "es": "helado",
+    "level": 1,
+    "ex_zh": "Un gelato al limone.",
+    "ex_py": "un yelato al limone",
+    "ex_es": "Un helado de limón."
+  },
+  {
+    "hanzi": "gatto",
+    "pinyin": "gato",
+    "es": "gato",
+    "level": 1,
+    "ex_zh": "Il gatto dorme.",
+    "ex_py": "il gato dorme",
+    "ex_es": "El gato duerme."
+  },
+  {
+    "hanzi": "figlio",
+    "pinyin": "filio",
+    "es": "hijo",
+    "level": 1,
+    "ex_zh": "Mio figlio ha dieci anni.",
+    "ex_py": "mio filio a diechi ani",
+    "ex_es": "Mi hijo tiene diez años."
+  },
+  {
+    "hanzi": "gnocchi",
+    "pinyin": "ñoki",
+    "es": "ñoquis",
+    "level": 1,
+    "ex_zh": "Gli gnocchi sono buoni.",
+    "ex_py": "li ñoki sono buoni",
+    "ex_es": "Los ñoquis están ricos."
+  },
+  {
+    "hanzi": "pesce",
+    "pinyin": "peshe",
+    "es": "pescado",
+    "level": 1,
+    "ex_zh": "Il pesce è fresco.",
+    "ex_py": "il peshe e fresko",
+    "ex_es": "El pescado está fresco."
+  },
+  {
+    "hanzi": "spaghetti",
+    "pinyin": "spagueti",
+    "es": "espaguetis",
+    "level": 1,
+    "ex_zh": "Gli spaghetti sono pronti.",
+    "ex_py": "li spagueti sono pronti",
+    "ex_es": "Los espaguetis están listos."
+  },
+  {
+    "hanzi": "perché",
+    "pinyin": "perké",
+    "es": "por qué; porque",
+    "level": 1,
+    "ex_zh": "Perché ridi?",
+    "ex_py": "perké ridi",
+    "ex_es": "¿Por qué te reís?"
+  },
+  {
+    "hanzi": "città",
+    "pinyin": "chitá",
+    "es": "ciudad",
+    "level": 1,
+    "ex_zh": "Roma è una città bella.",
+    "ex_py": "roma e una chitá bela",
+    "ex_es": "Roma es una ciudad linda."
+  },
+  {
+    "hanzi": "pizza",
+    "pinyin": "pitsa",
+    "es": "pizza",
+    "level": 1,
+    "ex_zh": "Una pizza margherita.",
+    "ex_py": "una pitsa margherita",
+    "ex_es": "Una pizza margarita."
+  },
+  {
+    "hanzi": "anno",
+    "pinyin": "ano",
+    "es": "año",
+    "level": 1,
+    "ex_zh": "Buon anno!",
+    "ex_py": "buon ano",
+    "ex_es": "¡Feliz año!"
+  },
+  {
+    "hanzi": "caffè",
+    "pinyin": "kafe",
+    "es": "café",
+    "level": 1,
+    "ex_zh": "Un caffè macchiato.",
+    "ex_py": "un kafe makiato",
+    "ex_es": "Un café manchado."
+  },
+  {
+    "hanzi": "io",
+    "pinyin": "io",
+    "es": "yo",
+    "level": 1,
+    "ex_zh": "Io sono di Buenos Aires.",
+    "ex_py": "io sono di buenos aires",
+    "ex_es": "Yo soy de Buenos Aires."
+  },
+  {
+    "hanzi": "tu",
+    "pinyin": "tu",
+    "es": "vos; tú",
+    "level": 1,
+    "ex_zh": "Tu sei italiano?",
+    "ex_py": "tu sei italiano",
+    "ex_es": "¿Vos sos italiano?"
+  },
+  {
+    "hanzi": "lui",
+    "pinyin": "lui",
+    "es": "él",
+    "level": 1,
+    "ex_zh": "Lui è Marco.",
+    "ex_py": "lui e marko",
+    "ex_es": "Él es Marco."
+  },
+  {
+    "hanzi": "lei",
+    "pinyin": "lei",
+    "es": "ella; usted",
+    "level": 1,
+    "ex_zh": "Lei è la professoressa.",
+    "ex_py": "lei e la profesoresa",
+    "ex_es": "Ella es la profesora."
+  },
+  {
+    "hanzi": "noi",
+    "pinyin": "noi",
+    "es": "nosotros",
+    "level": 1,
+    "ex_zh": "Noi parliamo spagnolo.",
+    "ex_py": "noi parliamo spañolo",
+    "ex_es": "Nosotros hablamos español."
+  },
+  {
+    "hanzi": "voi",
+    "pinyin": "voi",
+    "es": "ustedes; vosotros",
+    "level": 1,
+    "ex_zh": "Voi siete pronti?",
+    "ex_py": "voi siete pronti",
+    "ex_es": "¿Ustedes están listos?"
+  },
+  {
+    "hanzi": "loro",
+    "pinyin": "loro",
+    "es": "ellos; ellas",
+    "level": 1,
+    "ex_zh": "Loro abitano a Milano.",
+    "ex_py": "loro abitano a milano",
+    "ex_es": "Ellos viven en Milán."
+  },
+  {
+    "hanzi": "essere",
+    "pinyin": "ésere",
+    "es": "ser; estar",
+    "level": 1,
+    "ex_zh": "Sono studente.",
+    "ex_py": "sono studente",
+    "ex_es": "Soy estudiante."
+  },
+  {
+    "hanzi": "chiamarsi",
+    "pinyin": "kiamarsi",
+    "es": "llamarse",
+    "level": 1,
+    "ex_zh": "Mi chiamo Luca.",
+    "ex_py": "mi kiamo luka",
+    "ex_es": "Me llamo Luca."
+  },
+  {
+    "hanzi": "nome",
+    "pinyin": "nome",
+    "es": "nombre",
+    "level": 1,
+    "ex_zh": "Come ti chiami?",
+    "ex_py": "kome ti kiami",
+    "ex_es": "¿Cómo te llamás?"
+  },
+  {
+    "hanzi": "dove",
+    "pinyin": "dove",
+    "es": "dónde",
+    "level": 1,
+    "ex_zh": "Dove abiti?",
+    "ex_py": "dove abiti",
+    "ex_es": "¿Dónde vivís?"
+  },
+  {
+    "hanzi": "abitare",
+    "pinyin": "abitare",
+    "es": "vivir",
+    "level": 1,
+    "ex_zh": "Abito in Argentina.",
+    "ex_py": "abito in arjentina",
+    "ex_es": "Vivo en Argentina."
+  },
+  {
+    "hanzi": "italiano",
+    "pinyin": "italiano",
+    "es": "italiano",
+    "level": 1,
+    "ex_zh": "Parlo un po' di italiano.",
+    "ex_py": "parlo un po di italiano",
+    "ex_es": "Hablo un poco de italiano."
+  },
+  {
+    "hanzi": "spagnolo",
+    "pinyin": "spañolo",
+    "es": "español",
+    "level": 1,
+    "ex_zh": "Lo spagnolo è la mia lingua.",
+    "ex_py": "lo spañolo e la mia lingua",
+    "ex_es": "El español es mi lengua."
+  },
+  {
+    "hanzi": "studente",
+    "pinyin": "studente",
+    "es": "estudiante",
+    "level": 1,
+    "ex_zh": "Sono una studentessa.",
+    "ex_py": "sono una studentesa",
+    "ex_es": "Soy una estudiante."
+  },
+  {
+    "hanzi": "uno",
+    "pinyin": "uno",
+    "es": "uno",
+    "level": 1,
+    "ex_zh": "Ho un fratello.",
+    "ex_py": "o un fratelo",
+    "ex_es": "Tengo un hermano."
+  },
+  {
+    "hanzi": "due",
+    "pinyin": "due",
+    "es": "dos",
+    "level": 1,
+    "ex_zh": "Due caffè, per favore.",
+    "ex_py": "due kafe, per favore",
+    "ex_es": "Dos cafés, por favor."
+  },
+  {
+    "hanzi": "tre",
+    "pinyin": "tre",
+    "es": "tres",
+    "level": 1,
+    "ex_zh": "Sono le tre.",
+    "ex_py": "sono le tre",
+    "ex_es": "Son las tres."
+  },
+  {
+    "hanzi": "quattro",
+    "pinyin": "kuatro",
+    "es": "cuatro",
+    "level": 1,
+    "ex_zh": "Quattro biglietti.",
+    "ex_py": "kuatro biliéti",
+    "ex_es": "Cuatro boletos."
+  },
+  {
+    "hanzi": "cinque",
+    "pinyin": "chinkue",
+    "es": "cinco",
+    "level": 1,
+    "ex_zh": "Cinque minuti.",
+    "ex_py": "chinkue minuti",
+    "ex_es": "Cinco minutos."
+  },
+  {
+    "hanzi": "sei",
+    "pinyin": "sei",
+    "es": "seis",
+    "level": 1,
+    "ex_zh": "Sono le sei.",
+    "ex_py": "sono le sei",
+    "ex_es": "Son las seis."
+  },
+  {
+    "hanzi": "sette",
+    "pinyin": "sete",
+    "es": "siete",
+    "level": 1,
+    "ex_zh": "Alle sette di sera.",
+    "ex_py": "ale sete di sera",
+    "ex_es": "A las siete de la tarde."
+  },
+  {
+    "hanzi": "otto",
+    "pinyin": "oto",
+    "es": "ocho",
+    "level": 1,
+    "ex_zh": "L'autobus delle otto.",
+    "ex_py": "lautobus dele oto",
+    "ex_es": "El colectivo de las ocho."
+  },
+  {
+    "hanzi": "nove",
+    "pinyin": "nove",
+    "es": "nueve",
+    "level": 1,
+    "ex_zh": "Sono le nove.",
+    "ex_py": "sono le nove",
+    "ex_es": "Son las nueve."
+  },
+  {
+    "hanzi": "dieci",
+    "pinyin": "diechi",
+    "es": "diez",
+    "level": 1,
+    "ex_zh": "Dieci euro.",
+    "ex_py": "diechi euro",
+    "ex_es": "Diez euros."
+  },
+  {
+    "hanzi": "quindici",
+    "pinyin": "kuindichi",
+    "es": "quince",
+    "level": 1,
+    "ex_zh": "Costa quindici euro.",
+    "ex_py": "kosta kuindichi euro",
+    "ex_es": "Cuesta quince euros."
+  },
+  {
+    "hanzi": "venti",
+    "pinyin": "venti",
+    "es": "veinte",
+    "level": 1,
+    "ex_zh": "Ho venti anni.",
+    "ex_py": "o venti ani",
+    "ex_es": "Tengo veinte años."
+  },
+  {
+    "hanzi": "cento",
+    "pinyin": "chento",
+    "es": "cien",
+    "level": 1,
+    "ex_zh": "Cento grammi di pane.",
+    "ex_py": "chento grami di pane",
+    "ex_es": "Cien gramos de pan."
+  },
+  {
+    "hanzi": "mille",
+    "pinyin": "mile",
+    "es": "mil",
+    "level": 1,
+    "ex_zh": "Grazie mille.",
+    "ex_py": "gratsie mile",
+    "ex_es": "Mil gracias."
+  },
+  {
+    "hanzi": "euro",
+    "pinyin": "euro",
+    "es": "euro",
+    "level": 1,
+    "ex_zh": "Costa dieci euro.",
+    "ex_py": "kosta diechi euro",
+    "ex_es": "Cuesta diez euros."
+  },
+  {
+    "hanzi": "quanto",
+    "pinyin": "kuanto",
+    "es": "cuánto",
+    "level": 1,
+    "ex_zh": "Quanto costa?",
+    "ex_py": "kuanto kosta",
+    "ex_es": "¿Cuánto cuesta?"
+  },
+  {
+    "hanzi": "famiglia",
+    "pinyin": "familia",
+    "es": "familia",
+    "level": 1,
+    "ex_zh": "La mia famiglia è grande.",
+    "ex_py": "la mia familia e grande",
+    "ex_es": "Mi familia es grande."
+  },
+  {
+    "hanzi": "madre",
+    "pinyin": "madre",
+    "es": "madre",
+    "level": 1,
+    "ex_zh": "Mia madre cucina bene.",
+    "ex_py": "mia madre kuchina bene",
+    "ex_es": "Mi madre cocina bien."
+  },
+  {
+    "hanzi": "padre",
+    "pinyin": "padre",
+    "es": "padre",
+    "level": 1,
+    "ex_zh": "Mio padre lavora.",
+    "ex_py": "mio padre lavora",
+    "ex_es": "Mi padre trabaja."
+  },
+  {
+    "hanzi": "fratello",
+    "pinyin": "fratelo",
+    "es": "hermano",
+    "level": 1,
+    "ex_zh": "Ho un fratello.",
+    "ex_py": "o un fratelo",
+    "ex_es": "Tengo un hermano."
+  },
+  {
+    "hanzi": "sorella",
+    "pinyin": "sorela",
+    "es": "hermana",
+    "level": 1,
+    "ex_zh": "Mia sorella studia.",
+    "ex_py": "mia sorela studia",
+    "ex_es": "Mi hermana estudia."
+  },
+  {
+    "hanzi": "figlia",
+    "pinyin": "filia",
+    "es": "hija",
+    "level": 1,
+    "ex_zh": "La figlia si chiama Anna.",
+    "ex_py": "la filia si kiama ana",
+    "ex_es": "La hija se llama Anna."
+  },
+  {
+    "hanzi": "nonno",
+    "pinyin": "nono",
+    "es": "abuelo",
+    "level": 1,
+    "ex_zh": "Il nonno abita a Napoli.",
+    "ex_py": "il nono abita a napoli",
+    "ex_es": "El abuelo vive en Nápoles."
+  },
+  {
+    "hanzi": "nonna",
+    "pinyin": "nona",
+    "es": "abuela",
+    "level": 1,
+    "ex_zh": "La nonna fa il ragù.",
+    "ex_py": "la nona fa il ragú",
+    "ex_es": "La abuela hace el tuco."
+  },
+  {
+    "hanzi": "zio",
+    "pinyin": "tsio",
+    "es": "tío",
+    "level": 1,
+    "ex_zh": "Lo zio arriva domani.",
+    "ex_py": "lo tsio arriva domani",
+    "ex_es": "El tío llega mañana."
+  },
+  {
+    "hanzi": "zia",
+    "pinyin": "tsia",
+    "es": "tía",
+    "level": 1,
+    "ex_zh": "La zia è simpatica.",
+    "ex_py": "la tsia e simpatika",
+    "ex_es": "La tía es simpática."
+  },
+  {
+    "hanzi": "marito",
+    "pinyin": "marito",
+    "es": "esposo",
+    "level": 1,
+    "ex_zh": "Suo marito è medico.",
+    "ex_py": "suo marito e mediko",
+    "ex_es": "Su esposo es médico."
+  },
+  {
+    "hanzi": "moglie",
+    "pinyin": "molie",
+    "es": "esposa",
+    "level": 1,
+    "ex_zh": "Mia moglie parla inglese.",
+    "ex_py": "mia molie parla inglese",
+    "ex_es": "Mi esposa habla inglés."
+  },
+  {
+    "hanzi": "bambino",
+    "pinyin": "bambino",
+    "es": "niño",
+    "level": 1,
+    "ex_zh": "Il bambino dorme.",
+    "ex_py": "il bambino dorme",
+    "ex_es": "El niño duerme."
+  },
+  {
+    "hanzi": "acqua",
+    "pinyin": "akua",
+    "es": "agua",
+    "level": 1,
+    "ex_zh": "Un bicchiere d'acqua.",
+    "ex_py": "un bikiere dakua",
+    "ex_es": "Un vaso de agua."
+  },
+  {
+    "hanzi": "pane",
+    "pinyin": "pane",
+    "es": "pan",
+    "level": 1,
+    "ex_zh": "Il pane è caldo.",
+    "ex_py": "il pane e kaldo",
+    "ex_es": "El pan está caliente."
+  },
+  {
+    "hanzi": "pasta",
+    "pinyin": "pasta",
+    "es": "pasta",
+    "level": 1,
+    "ex_zh": "La pasta è buona.",
+    "ex_py": "la pasta e buona",
+    "ex_es": "La pasta está rica."
+  },
+  {
+    "hanzi": "vino",
+    "pinyin": "vino",
+    "es": "vino",
+    "level": 1,
+    "ex_zh": "Un bicchiere di vino.",
+    "ex_py": "un bikiere di vino",
+    "ex_es": "Una copa de vino."
+  },
+  {
+    "hanzi": "latte",
+    "pinyin": "late",
+    "es": "leche",
+    "level": 1,
+    "ex_zh": "Il latte è freddo.",
+    "ex_py": "il late e fredo",
+    "ex_es": "La leche está fría."
+  },
+  {
+    "hanzi": "formaggio",
+    "pinyin": "formayo",
+    "es": "queso",
+    "level": 1,
+    "ex_zh": "Formaggio e pane.",
+    "ex_py": "formayo e pane",
+    "ex_es": "Queso y pan."
+  },
+  {
+    "hanzi": "frutta",
+    "pinyin": "fruta",
+    "es": "fruta",
+    "level": 1,
+    "ex_zh": "La frutta è fresca.",
+    "ex_py": "la fruta e freska",
+    "ex_es": "La fruta está fresca."
+  },
+  {
+    "hanzi": "verdura",
+    "pinyin": "verdura",
+    "es": "verdura",
+    "level": 1,
+    "ex_zh": "Mangio verdura.",
+    "ex_py": "manyo verdura",
+    "ex_es": "Como verdura."
+  },
+  {
+    "hanzi": "mangiare",
+    "pinyin": "manyare",
+    "es": "comer",
+    "level": 1,
+    "ex_zh": "Mangiamo insieme.",
+    "ex_py": "manyamo insieme",
+    "ex_es": "Comemos juntos."
+  },
+  {
+    "hanzi": "bere",
+    "pinyin": "bere",
+    "es": "beber",
+    "level": 1,
+    "ex_zh": "Bevo un caffè.",
+    "ex_py": "bevo un kafe",
+    "ex_es": "Tomo un café."
+  },
+  {
+    "hanzi": "ristorante",
+    "pinyin": "ristorante",
+    "es": "restaurante",
+    "level": 1,
+    "ex_zh": "Il ristorante è pieno.",
+    "ex_py": "il ristorante e pieno",
+    "ex_es": "El restaurante está lleno."
+  },
+  {
+    "hanzi": "conto",
+    "pinyin": "konto",
+    "es": "cuenta",
+    "level": 1,
+    "ex_zh": "Il conto, per favore.",
+    "ex_py": "il konto, per favore",
+    "ex_es": "La cuenta, por favor."
+  },
+  {
+    "hanzi": "buono",
+    "pinyin": "buono",
+    "es": "bueno; rico",
+    "level": 1,
+    "ex_zh": "È molto buono.",
+    "ex_py": "e molto buono",
+    "ex_es": "Está muy rico."
+  },
+  {
+    "hanzi": "ora",
+    "pinyin": "ora",
+    "es": "hora; ahora",
+    "level": 1,
+    "ex_zh": "Che ora è?",
+    "ex_py": "ke ora e",
+    "ex_es": "¿Qué hora es?"
+  },
+  {
+    "hanzi": "oggi",
+    "pinyin": "oyi",
+    "es": "hoy",
+    "level": 1,
+    "ex_zh": "Oggi è lunedì.",
+    "ex_py": "oyi e lunedí",
+    "ex_es": "Hoy es lunes."
+  },
+  {
+    "hanzi": "domani",
+    "pinyin": "domani",
+    "es": "mañana",
+    "level": 1,
+    "ex_zh": "A domani!",
+    "ex_py": "a domani",
+    "ex_es": "¡Hasta mañana!"
+  },
+  {
+    "hanzi": "ieri",
+    "pinyin": "ieri",
+    "es": "ayer",
+    "level": 1,
+    "ex_zh": "Ieri ho studiato.",
+    "ex_py": "ieri o studiato",
+    "ex_es": "Ayer estudié."
+  },
+  {
+    "hanzi": "lunedì",
+    "pinyin": "lunedí",
+    "es": "lunes",
+    "level": 1,
+    "ex_zh": "Lunedì lavoro.",
+    "ex_py": "lunedí lavoro",
+    "ex_es": "El lunes trabajo."
+  },
+  {
+    "hanzi": "martedì",
+    "pinyin": "martedí",
+    "es": "martes",
+    "level": 1,
+    "ex_zh": "Martedì ho lezione.",
+    "ex_py": "martedí o letsione",
+    "ex_es": "El martes tengo clase."
+  },
+  {
+    "hanzi": "mercoledì",
+    "pinyin": "merkoledí",
+    "es": "miércoles",
+    "level": 1,
+    "ex_zh": "Mercoledì riposo.",
+    "ex_py": "merkoledí riposo",
+    "ex_es": "El miércoles descanso."
+  },
+  {
+    "hanzi": "giovedì",
+    "pinyin": "yovedí",
+    "es": "jueves",
+    "level": 1,
+    "ex_zh": "Giovedì sera cinema.",
+    "ex_py": "yovedí sera chinema",
+    "ex_es": "El jueves a la noche, cine."
+  },
+  {
+    "hanzi": "venerdì",
+    "pinyin": "venerdí",
+    "es": "viernes",
+    "level": 1,
+    "ex_zh": "Venerdì usciamo.",
+    "ex_py": "venerdí ushiamo",
+    "ex_es": "El viernes salimos."
+  },
+  {
+    "hanzi": "sabato",
+    "pinyin": "sabato",
+    "es": "sábado",
+    "level": 1,
+    "ex_zh": "Sabato non lavoro.",
+    "ex_py": "sabato non lavoro",
+    "ex_es": "El sábado no trabajo."
+  },
+  {
+    "hanzi": "domenica",
+    "pinyin": "domenika",
+    "es": "domingo",
+    "level": 1,
+    "ex_zh": "Domenica in famiglia.",
+    "ex_py": "domenika in familia",
+    "ex_es": "El domingo en familia."
+  },
+  {
+    "hanzi": "mattina",
+    "pinyin": "matina",
+    "es": "mañana (del día)",
+    "level": 1,
+    "ex_zh": "Di mattina bevo caffè.",
+    "ex_py": "di matina bevo kafe",
+    "ex_es": "A la mañana tomo café."
+  },
+  {
+    "hanzi": "sera",
+    "pinyin": "sera",
+    "es": "tarde-noche",
+    "level": 1,
+    "ex_zh": "Di sera leggo.",
+    "ex_py": "di sera lego",
+    "ex_es": "A la noche leo."
+  },
+  {
+    "hanzi": "notte",
+    "pinyin": "note",
+    "es": "noche",
+    "level": 1,
+    "ex_zh": "Buona notte.",
+    "ex_py": "buona note",
+    "ex_es": "Buenas noches."
+  },
+  {
+    "hanzi": "settimana",
+    "pinyin": "setimana",
+    "es": "semana",
+    "level": 1,
+    "ex_zh": "Questa settimana.",
+    "ex_py": "kuesta setimana",
+    "ex_es": "Esta semana."
+  },
+  {
+    "hanzi": "via",
+    "pinyin": "via",
+    "es": "calle",
+    "level": 1,
+    "ex_zh": "Abito in via Roma.",
+    "ex_py": "abito in via roma",
+    "ex_es": "Vivo en la calle Roma."
+  },
+  {
+    "hanzi": "piazza",
+    "pinyin": "piatsa",
+    "es": "plaza",
+    "level": 1,
+    "ex_zh": "Ci vediamo in piazza.",
+    "ex_py": "chi vediamo in piatsa",
+    "ex_es": "Nos vemos en la plaza."
+  },
+  {
+    "hanzi": "stazione",
+    "pinyin": "statsione",
+    "es": "estación",
+    "level": 1,
+    "ex_zh": "La stazione è vicina.",
+    "ex_py": "la statsione e vichina",
+    "ex_es": "La estación está cerca."
+  },
+  {
+    "hanzi": "autobus",
+    "pinyin": "autobus",
+    "es": "colectivo",
+    "level": 1,
+    "ex_zh": "Prendo l'autobus.",
+    "ex_py": "prendo lautobus",
+    "ex_es": "Tomo el colectivo."
+  },
+  {
+    "hanzi": "treno",
+    "pinyin": "treno",
+    "es": "tren",
+    "level": 1,
+    "ex_zh": "Il treno parte alle nove.",
+    "ex_py": "il treno parte ale nove",
+    "ex_es": "El tren sale a las nueve."
+  },
+  {
+    "hanzi": "biglietto",
+    "pinyin": "biliéto",
+    "es": "boleto",
+    "level": 1,
+    "ex_zh": "Un biglietto per Firenze.",
+    "ex_py": "un biliéto per firentse",
+    "ex_es": "Un boleto para Florencia."
+  },
+  {
+    "hanzi": "sinistra",
+    "pinyin": "sinistra",
+    "es": "izquierda",
+    "level": 1,
+    "ex_zh": "Gira a sinistra.",
+    "ex_py": "yira a sinistra",
+    "ex_es": "Doblá a la izquierda."
+  },
+  {
+    "hanzi": "destra",
+    "pinyin": "destra",
+    "es": "derecha",
+    "level": 1,
+    "ex_zh": "È sulla destra.",
+    "ex_py": "e sula destra",
+    "ex_es": "Está a la derecha."
+  },
+  {
+    "hanzi": "qui",
+    "pinyin": "kui",
+    "es": "aquí",
+    "level": 1,
+    "ex_zh": "Sono qui.",
+    "ex_py": "sono kui",
+    "ex_es": "Estoy acá."
+  },
+  {
+    "hanzi": "lì",
+    "pinyin": "li",
+    "es": "allí",
+    "level": 1,
+    "ex_zh": "Il bar è lì.",
+    "ex_py": "il bar e li",
+    "ex_es": "El bar está ahí."
+  },
+  {
+    "hanzi": "andare",
+    "pinyin": "andare",
+    "es": "ir",
+    "level": 1,
+    "ex_zh": "Vado a casa.",
+    "ex_py": "vado a kasa",
+    "ex_es": "Voy a casa."
+  },
+  {
+    "hanzi": "vicino",
+    "pinyin": "vichino",
+    "es": "cerca",
+    "level": 1,
+    "ex_zh": "È vicino alla piazza.",
+    "ex_py": "e vichino ala piatsa",
+    "ex_es": "Está cerca de la plaza."
+  },
+  {
+    "hanzi": "lontano",
+    "pinyin": "lontano",
+    "es": "lejos",
+    "level": 1,
+    "ex_zh": "La stazione è lontana.",
+    "ex_py": "la statsione e lontana",
+    "ex_es": "La estación está lejos."
+  },
+  {
+    "hanzi": "rosso",
+    "pinyin": "roso",
+    "es": "rojo",
+    "level": 1,
+    "ex_zh": "Il semaforo è rosso.",
+    "ex_py": "il semaforo e roso",
+    "ex_es": "El semáforo está en rojo."
+  },
+  {
+    "hanzi": "verde",
+    "pinyin": "verde",
+    "es": "verde",
+    "level": 1,
+    "ex_zh": "Una mela verde.",
+    "ex_py": "una mela verde",
+    "ex_es": "Una manzana verde."
+  },
+  {
+    "hanzi": "bianco",
+    "pinyin": "bianko",
+    "es": "blanco",
+    "level": 1,
+    "ex_zh": "Il vino bianco.",
+    "ex_py": "il vino bianko",
+    "ex_es": "El vino blanco."
+  },
+  {
+    "hanzi": "nero",
+    "pinyin": "nero",
+    "es": "negro",
+    "level": 1,
+    "ex_zh": "Un gatto nero.",
+    "ex_py": "un gato nero",
+    "ex_es": "Un gato negro."
+  },
+  {
+    "hanzi": "blu",
+    "pinyin": "blu",
+    "es": "azul",
+    "level": 1,
+    "ex_zh": "Il mare è blu.",
+    "ex_py": "il mare e blu",
+    "ex_es": "El mar es azul."
+  },
+  {
+    "hanzi": "grande",
+    "pinyin": "grande",
+    "es": "grande",
+    "level": 1,
+    "ex_zh": "Una città grande.",
+    "ex_py": "una chitá grande",
+    "ex_es": "Una ciudad grande."
+  },
+  {
+    "hanzi": "piccolo",
+    "pinyin": "pikolo",
+    "es": "pequeño",
+    "level": 1,
+    "ex_zh": "Un caffè piccolo.",
+    "ex_py": "un kafe pikolo",
+    "ex_es": "Un café chico."
+  },
+  {
+    "hanzi": "bello",
+    "pinyin": "belo",
+    "es": "lindo",
+    "level": 1,
+    "ex_zh": "Che bello!",
+    "ex_py": "ke belo",
+    "ex_es": "¡Qué lindo!"
+  },
+  {
+    "hanzi": "nuovo",
+    "pinyin": "nuovo",
+    "es": "nuevo",
+    "level": 1,
+    "ex_zh": "Un libro nuovo.",
+    "ex_py": "un libro nuovo",
+    "ex_es": "Un libro nuevo."
+  },
+  {
+    "hanzi": "vecchio",
+    "pinyin": "vekio",
+    "es": "viejo",
+    "level": 1,
+    "ex_zh": "Un palazzo vecchio.",
+    "ex_py": "un palatso vekio",
+    "ex_es": "Un edificio viejo."
+  },
+  {
+    "hanzi": "caldo",
+    "pinyin": "kaldo",
+    "es": "caliente; calor",
+    "level": 1,
+    "ex_zh": "Fa caldo oggi.",
+    "ex_py": "fa kaldo oyi",
+    "ex_es": "Hoy hace calor."
+  },
+  {
+    "hanzi": "freddo",
+    "pinyin": "fredo",
+    "es": "frío",
+    "level": 1,
+    "ex_zh": "Ho freddo.",
+    "ex_py": "o fredo",
+    "ex_es": "Tengo frío."
+  },
+  {
+    "hanzi": "avere",
+    "pinyin": "avere",
+    "es": "tener",
+    "level": 1,
+    "ex_zh": "Ho fame.",
+    "ex_py": "o fame",
+    "ex_es": "Tengo hambre."
+  },
+  {
+    "hanzi": "fare",
+    "pinyin": "fare",
+    "es": "hacer",
+    "level": 1,
+    "ex_zh": "Cosa fai?",
+    "ex_py": "kosa fai",
+    "ex_es": "¿Qué hacés?"
+  },
+  {
+    "hanzi": "volere",
+    "pinyin": "volere",
+    "es": "querer",
+    "level": 1,
+    "ex_zh": "Voglio un gelato.",
+    "ex_py": "volio un yelato",
+    "ex_es": "Quiero un helado."
+  },
+  {
+    "hanzi": "potere",
+    "pinyin": "potere",
+    "es": "poder",
+    "level": 1,
+    "ex_zh": "Posso entrare?",
+    "ex_py": "poso entrare",
+    "ex_es": "¿Puedo entrar?"
+  },
+  {
+    "hanzi": "dovere",
+    "pinyin": "dovere",
+    "es": "deber",
+    "level": 1,
+    "ex_zh": "Devo studiare.",
+    "ex_py": "devo studiare",
+    "ex_es": "Tengo que estudiar."
+  },
+  {
+    "hanzi": "parlare",
+    "pinyin": "parlare",
+    "es": "hablar",
+    "level": 1,
+    "ex_zh": "Parli italiano?",
+    "ex_py": "parli italiano",
+    "ex_es": "¿Hablás italiano?"
+  },
+  {
+    "hanzi": "capire",
+    "pinyin": "kapire",
+    "es": "entender",
+    "level": 1,
+    "ex_zh": "Non capisco.",
+    "ex_py": "non kapisko",
+    "ex_es": "No entiendo."
+  },
+  {
+    "hanzi": "leggere",
+    "pinyin": "léyere",
+    "es": "leer",
+    "level": 1,
+    "ex_zh": "Leggo un libro.",
+    "ex_py": "lego un libro",
+    "ex_es": "Leo un libro."
+  },
+  {
+    "hanzi": "scrivere",
+    "pinyin": "skrivere",
+    "es": "escribir",
+    "level": 1,
+    "ex_zh": "Scrivo una mail.",
+    "ex_py": "skrivo una mail",
+    "ex_es": "Escribo un mail."
+  },
+  {
+    "hanzi": "ascoltare",
+    "pinyin": "askoltare",
+    "es": "escuchar",
+    "level": 1,
+    "ex_zh": "Ascolto la radio.",
+    "ex_py": "askolto la radio",
+    "ex_es": "Escucho la radio."
+  },
+  {
+    "hanzi": "vedere",
+    "pinyin": "vedere",
+    "es": "ver",
+    "level": 1,
+    "ex_zh": "Ci vediamo.",
+    "ex_py": "chi vediamo",
+    "ex_es": "Nos vemos."
+  },
+  {
+    "hanzi": "negozio",
+    "pinyin": "negotso",
+    "es": "negocio; tienda",
+    "level": 1,
+    "ex_zh": "Il negozio è chiuso.",
+    "ex_py": "il negotso e kiuso",
+    "ex_es": "El negocio está cerrado."
+  },
+  {
+    "hanzi": "comprare",
+    "pinyin": "komprare",
+    "es": "comprar",
+    "level": 1,
+    "ex_zh": "Compro il pane.",
+    "ex_py": "kompro il pane",
+    "ex_es": "Compro el pan."
+  },
+  {
+    "hanzi": "pagare",
+    "pinyin": "pagare",
+    "es": "pagar",
+    "level": 1,
+    "ex_zh": "Pago con la carta.",
+    "ex_py": "pago kon la karta",
+    "ex_es": "Pago con la tarjeta."
+  },
+  {
+    "hanzi": "carta",
+    "pinyin": "karta",
+    "es": "tarjeta",
+    "level": 1,
+    "ex_zh": "Carta o contanti?",
+    "ex_py": "karta o kontanti",
+    "ex_es": "¿Tarjeta o efectivo?"
+  },
+  {
+    "hanzi": "camicia",
+    "pinyin": "chamisha",
+    "es": "camisa",
+    "level": 1,
+    "ex_zh": "Una camicia bianca.",
+    "ex_py": "una chamisha bianka",
+    "ex_es": "Una camisa blanca."
+  },
+  {
+    "hanzi": "contanti",
+    "pinyin": "kontanti",
+    "es": "efectivo",
+    "level": 1,
+    "ex_zh": "Pago in contanti.",
+    "ex_py": "pago in kontanti",
+    "ex_es": "Pago en efectivo."
+  },
+  {
+    "hanzi": "taglia",
+    "pinyin": "talia",
+    "es": "talle",
+    "level": 1,
+    "ex_zh": "Che taglia porti?",
+    "ex_py": "ke talia porti",
+    "ex_es": "¿Qué talle usás?"
+  },
+  {
+    "hanzi": "sconto",
+    "pinyin": "skonto",
+    "es": "descuento",
+    "level": 1,
+    "ex_zh": "C'è uno sconto.",
+    "ex_py": "che uno skonto",
+    "ex_es": "Hay un descuento."
+  },
+  {
+    "hanzi": "caro",
+    "pinyin": "karo",
+    "es": "caro",
+    "level": 1,
+    "ex_zh": "È troppo caro.",
+    "ex_py": "e tropo karo",
+    "ex_es": "Está demasiado caro."
+  },
+  {
+    "hanzi": "economico",
+    "pinyin": "ekonomiko",
+    "es": "barato",
+    "level": 1,
+    "ex_zh": "Un menu economico.",
+    "ex_py": "un menu ekonomiko",
+    "ex_es": "Un menú barato."
+  },
+  {
+    "hanzi": "tempo",
+    "pinyin": "tempo",
+    "es": "tiempo; clima",
+    "level": 1,
+    "ex_zh": "Che tempo fa?",
+    "ex_py": "ke tempo fa",
+    "ex_es": "¿Qué tiempo hace?"
+  },
+  {
+    "hanzi": "sole",
+    "pinyin": "sole",
+    "es": "sol",
+    "level": 1,
+    "ex_zh": "C'è il sole.",
+    "ex_py": "che il sole",
+    "ex_es": "Hay sol."
+  },
+  {
+    "hanzi": "pioggia",
+    "pinyin": "pioya",
+    "es": "lluvia",
+    "level": 1,
+    "ex_zh": "Porta l'ombrello, c'è pioggia.",
+    "ex_py": "porta lombrello, che pioya",
+    "ex_es": "Llevá el paraguas, hay lluvia."
+  },
+  {
+    "hanzi": "piove",
+    "pinyin": "piove",
+    "es": "llueve",
+    "level": 1,
+    "ex_zh": "Oggi piove.",
+    "ex_py": "oyi piove",
+    "ex_es": "Hoy llueve."
+  },
+  {
+    "hanzi": "vento",
+    "pinyin": "vento",
+    "es": "viento",
+    "level": 1,
+    "ex_zh": "C'è vento.",
+    "ex_py": "che vento",
+    "ex_es": "Hay viento."
+  },
+  {
+    "hanzi": "cinema",
+    "pinyin": "chinema",
+    "es": "cine",
+    "level": 1,
+    "ex_zh": "Andiamo al cinema.",
+    "ex_py": "andiamo al chinema",
+    "ex_es": "Vamos al cine."
+  },
+  {
+    "hanzi": "parco",
+    "pinyin": "parko",
+    "es": "parque",
+    "level": 1,
+    "ex_zh": "Il parco è verde.",
+    "ex_py": "il parko e verde",
+    "ex_es": "El parque está verde."
+  },
+  {
+    "hanzi": "amico",
+    "pinyin": "amiko",
+    "es": "amigo",
+    "level": 1,
+    "ex_zh": "È un amico.",
+    "ex_py": "e un amiko",
+    "ex_es": "Es un amigo."
+  },
+  {
+    "hanzi": "insieme",
+    "pinyin": "insieme",
+    "es": "juntos",
+    "level": 1,
+    "ex_zh": "Usciamo insieme.",
+    "ex_py": "ushiamo insieme",
+    "ex_es": "Salimos juntos."
+  },
+  {
+    "hanzi": "sì",
+    "pinyin": "si",
+    "es": "sí",
+    "level": 1,
+    "ex_zh": "Sì, grazie.",
+    "ex_py": "si, gratsie",
+    "ex_es": "Sí, gracias."
+  },
+  {
+    "hanzi": "no",
+    "pinyin": "no",
+    "es": "no",
+    "level": 1,
+    "ex_zh": "No, grazie.",
+    "ex_py": "no, gratsie",
+    "ex_es": "No, gracias."
+  },
+  {
+    "hanzi": "non",
+    "pinyin": "non",
+    "es": "no (negación)",
+    "level": 1,
+    "ex_zh": "Non capisco.",
+    "ex_py": "non kapisko",
+    "ex_es": "No entiendo."
+  },
+  {
+    "hanzi": "cucina",
+    "pinyin": "kuchina",
+    "es": "cocina",
+    "level": 2,
+    "ex_zh": "La cucina è luminosa.",
+    "ex_py": "la kuchina e luminosa",
+    "ex_es": "La cocina es luminosa."
+  },
+  {
+    "hanzi": "bagno",
+    "pinyin": "baño",
+    "es": "baño",
+    "level": 2,
+    "ex_zh": "Il bagno è in fondo.",
+    "ex_py": "il baño e in fondo",
+    "ex_es": "El baño está al fondo."
+  },
+  {
+    "hanzi": "camera",
+    "pinyin": "kamera",
+    "es": "habitación",
+    "level": 2,
+    "ex_zh": "La camera dà sul cortile.",
+    "ex_py": "la kamera da sul kortile",
+    "ex_es": "La habitación da al patio."
+  },
+  {
+    "hanzi": "letto",
+    "pinyin": "leto",
+    "es": "cama",
+    "level": 2,
+    "ex_zh": "Il letto è comodo.",
+    "ex_py": "il leto e komodo",
+    "ex_es": "La cama es cómoda."
+  },
+  {
+    "hanzi": "finestra",
+    "pinyin": "finestra",
+    "es": "ventana",
+    "level": 2,
+    "ex_zh": "Apri la finestra.",
+    "ex_py": "apri la finestra",
+    "ex_es": "Abrí la ventana."
+  },
+  {
+    "hanzi": "chiave",
+    "pinyin": "kiave",
+    "es": "llave",
+    "level": 2,
+    "ex_zh": "Ho perso la chiave.",
+    "ex_py": "o perso la kiave",
+    "ex_es": "Perdí la llave."
+  },
+  {
+    "hanzi": "ufficio",
+    "pinyin": "ufichio",
+    "es": "oficina",
+    "level": 2,
+    "ex_zh": "Vado in ufficio.",
+    "ex_py": "vado in ufichio",
+    "ex_es": "Voy a la oficina."
+  },
+  {
+    "hanzi": "collega",
+    "pinyin": "kolega",
+    "es": "colega",
+    "level": 2,
+    "ex_zh": "La mia collega è in ferie.",
+    "ex_py": "la mia kolega e in ferie",
+    "ex_es": "Mi colega está de vacaciones."
+  },
+  {
+    "hanzi": "stipendio",
+    "pinyin": "stipendio",
+    "es": "sueldo",
+    "level": 2,
+    "ex_zh": "Lo stipendio arriva venerdì.",
+    "ex_py": "lo stipendio arriva venerdí",
+    "ex_es": "El sueldo llega el viernes."
+  },
+  {
+    "hanzi": "maglia",
+    "pinyin": "malia",
+    "es": "remera",
+    "level": 2,
+    "ex_zh": "Una maglia blu.",
+    "ex_py": "una malia blu",
+    "ex_es": "Una remera azul."
+  },
+  {
+    "hanzi": "scarpe",
+    "pinyin": "skarpe",
+    "es": "zapatos",
+    "level": 2,
+    "ex_zh": "Queste scarpe sono nuove.",
+    "ex_py": "kueste skarpe sono nuove",
+    "ex_es": "Estos zapatos son nuevos."
+  },
+  {
+    "hanzi": "cappello",
+    "pinyin": "kapelo",
+    "es": "sombrero",
+    "level": 2,
+    "ex_zh": "Porto un cappello.",
+    "ex_py": "porto un kapelo",
+    "ex_es": "Uso un sombrero."
+  },
+  {
+    "hanzi": "occhio",
+    "pinyin": "okio",
+    "es": "ojo",
+    "level": 2,
+    "ex_zh": "Ho gli occhi stanchi.",
+    "ex_py": "o li oki stanki",
+    "ex_es": "Tengo los ojos cansados."
+  },
+  {
+    "hanzi": "dottore",
+    "pinyin": "dotore",
+    "es": "médico",
+    "level": 2,
+    "ex_zh": "Vado dal dottore.",
+    "ex_py": "vado dal dotore",
+    "ex_es": "Voy al médico."
+  },
+  {
+    "hanzi": "medicina",
+    "pinyin": "medichina",
+    "es": "medicamento",
+    "level": 2,
+    "ex_zh": "Prendo la medicina.",
+    "ex_py": "prendo la medichina",
+    "ex_es": "Tomo el medicamento."
+  },
+  {
+    "hanzi": "preferire",
+    "pinyin": "preferire",
+    "es": "preferir",
+    "level": 2,
+    "ex_zh": "Preferisco il tè.",
+    "ex_py": "preferisko il te",
+    "ex_es": "Prefiero el té."
+  },
+  {
+    "hanzi": "sempre",
+    "pinyin": "sempre",
+    "es": "siempre",
+    "level": 2,
+    "ex_zh": "Arrivo sempre in orario.",
+    "ex_py": "arrivo sempre in orario",
+    "ex_es": "Siempre llego a horario."
+  },
+  {
+    "hanzi": "mai",
+    "pinyin": "mai",
+    "es": "nunca",
+    "level": 2,
+    "ex_zh": "Non bevo mai vino.",
+    "ex_py": "non bevo mai vino",
+    "ex_es": "Nunca tomo vino."
+  },
+  {
+    "hanzi": "spesso",
+    "pinyin": "speso",
+    "es": "a menudo",
+    "level": 2,
+    "ex_zh": "Esco spesso con gli amici.",
+    "ex_py": "esko speso kon li amichi",
+    "ex_es": "Salgo seguido con amigos."
+  },
+  {
+    "hanzi": "stasera",
+    "pinyin": "stasera",
+    "es": "esta noche",
+    "level": 2,
+    "ex_zh": "Stasera resto a casa.",
+    "ex_py": "stasera resto a kasa",
+    "ex_es": "Esta noche me quedo en casa."
+  },
+  {
+    "hanzi": "mangiato",
+    "pinyin": "manyato",
+    "es": "comido",
+    "level": 2,
+    "ex_zh": "Ho mangiato la pasta.",
+    "ex_py": "o manyato la pasta",
+    "ex_es": "Comí pasta."
+  },
+  {
+    "hanzi": "andato",
+    "pinyin": "andato",
+    "es": "ido",
+    "level": 2,
+    "ex_zh": "Sono andato al mercato.",
+    "ex_py": "sono andato al merkato",
+    "ex_es": "Fui al mercado."
+  },
+  {
+    "hanzi": "visto",
+    "pinyin": "visto",
+    "es": "visto",
+    "level": 2,
+    "ex_zh": "Ho visto un film.",
+    "ex_py": "o visto un film",
+    "ex_es": "Vi una película."
+  },
+  {
+    "hanzi": "fatto",
+    "pinyin": "fato",
+    "es": "hecho",
+    "level": 2,
+    "ex_zh": "Cosa hai fatto ieri?",
+    "ex_py": "kosa ai fato ieri",
+    "ex_es": "¿Qué hiciste ayer?"
+  },
+  {
+    "hanzi": "metropolitana",
+    "pinyin": "metropolitana",
+    "es": "subte",
+    "level": 2,
+    "ex_zh": "Prendo la metropolitana.",
+    "ex_py": "prendo la metropolitana",
+    "ex_es": "Tomo el subte."
+  },
+  {
+    "hanzi": "aeroporto",
+    "pinyin": "aeroporto",
+    "es": "aeropuerto",
+    "level": 2,
+    "ex_zh": "L'aeroporto è lontano.",
+    "ex_py": "laeroporto e lontano",
+    "ex_es": "El aeropuerto está lejos."
+  },
+  {
+    "hanzi": "valigia",
+    "pinyin": "valiyia",
+    "es": "valija",
+    "level": 2,
+    "ex_zh": "La valigia è pesante.",
+    "ex_py": "la valiyia e pesante",
+    "ex_es": "La valija está pesada."
+  },
+  {
+    "hanzi": "prenotare",
+    "pinyin": "prenotare",
+    "es": "reservar",
+    "level": 2,
+    "ex_zh": "Prenoto un tavolo.",
+    "ex_py": "prenoto un tavolo",
+    "ex_es": "Reservo una mesa."
+  },
+  {
+    "hanzi": "affitto",
+    "pinyin": "afito",
+    "es": "alquiler",
+    "level": 2,
+    "ex_zh": "L'affitto è alto.",
+    "ex_py": "lafito e alto",
+    "ex_es": "El alquiler es alto."
+  },
+  {
+    "hanzi": "presto",
+    "pinyin": "presto",
+    "es": "temprano",
+    "level": 2,
+    "ex_zh": "Mi alzo presto.",
+    "ex_py": "mi altso presto",
+    "ex_es": "Me levanto temprano."
+  },
+  {
+    "hanzi": "tardi",
+    "pinyin": "tardi",
+    "es": "tarde",
+    "level": 2,
+    "ex_zh": "È troppo tardi.",
+    "ex_py": "e tropo tardi",
+    "ex_es": "Es demasiado tarde."
+  },
+  {
+    "hanzi": "rumore",
+    "pinyin": "rumore",
+    "es": "ruido",
+    "level": 2,
+    "ex_zh": "C'è troppo rumore.",
+    "ex_py": "che tropo rumore",
+    "ex_es": "Hay demasiado ruido."
+  },
+  {
+    "hanzi": "silenzioso",
+    "pinyin": "silentsioso",
+    "es": "silencioso",
+    "level": 2,
+    "ex_zh": "Il quartiere è silenzioso.",
+    "ex_py": "il kuartiere e silentsioso",
+    "ex_es": "El barrio es silencioso."
+  },
+  {
+    "hanzi": "vestito",
+    "pinyin": "vestito",
+    "es": "vestido",
+    "level": 2,
+    "ex_zh": "Un vestito rosso.",
+    "ex_py": "un vestito roso",
+    "ex_es": "Un vestido rojo."
+  },
+  {
+    "hanzi": "mercato",
+    "pinyin": "merkato",
+    "es": "mercado",
+    "level": 2,
+    "ex_zh": "Il mercato apre alle otto.",
+    "ex_py": "il merkato apre ale oto",
+    "ex_es": "El mercado abre a las ocho."
+  },
+  {
+    "hanzi": "ferie",
+    "pinyin": "ferie",
+    "es": "vacaciones",
+    "level": 2,
+    "ex_zh": "Sono in ferie.",
+    "ex_py": "sono in ferie",
+    "ex_es": "Estoy de vacaciones."
+  },
+  {
+    "hanzi": "orario",
+    "pinyin": "orario",
+    "es": "horario",
+    "level": 2,
+    "ex_zh": "L'orario è flessibile.",
+    "ex_py": "lorario e flesibile",
+    "ex_es": "El horario es flexible."
+  },
+  {
+    "hanzi": "tavolo",
+    "pinyin": "tavolo",
+    "es": "mesa",
+    "level": 2,
+    "ex_zh": "Il tavolo è apparecchiato.",
+    "ex_py": "il tavolo e aparekiato",
+    "ex_es": "La mesa está puesta."
+  },
+  {
+    "hanzi": "sedia",
+    "pinyin": "sedia",
+    "es": "silla",
+    "level": 2,
+    "ex_zh": "Prendi una sedia.",
+    "ex_py": "prendi una sedia",
+    "ex_es": "Tomá una silla."
+  },
+  {
+    "hanzi": "porta",
+    "pinyin": "porta",
+    "es": "puerta",
+    "level": 2,
+    "ex_zh": "La porta è aperta.",
+    "ex_py": "la porta e aperta",
+    "ex_es": "La puerta está abierta."
+  },
+  {
+    "hanzi": "però",
+    "pinyin": "peró",
+    "es": "pero",
+    "level": 3,
+    "ex_zh": "Vorrei venire, però lavoro.",
+    "ex_py": "vorrei venire, peró lavoro",
+    "ex_es": "Quisiera ir, pero trabajo."
+  },
+  {
+    "hanzi": "quindi",
+    "pinyin": "kuindi",
+    "es": "así que",
+    "level": 3,
+    "ex_zh": "Piove, quindi resto a casa.",
+    "ex_py": "piove, kuindi resto a kasa",
+    "ex_es": "Llueve, así que me quedo en casa."
+  },
+  {
+    "hanzi": "mentre",
+    "pinyin": "mentre",
+    "es": "mientras",
+    "level": 3,
+    "ex_zh": "Ascolto musica mentre cucino.",
+    "ex_py": "askolto muzika mentre kuchino",
+    "ex_es": "Escucho música mientras cocino."
+  },
+  {
+    "hanzi": "appena",
+    "pinyin": "apena",
+    "es": "apenas; ni bien",
+    "level": 3,
+    "ex_zh": "Ti chiamo appena arrivo.",
+    "ex_py": "ti kiamo apena arrivo",
+    "ex_es": "Te llamo apenas llego."
+  },
+  {
+    "hanzi": "viaggio",
+    "pinyin": "viajo",
+    "es": "viaje",
+    "level": 3,
+    "ex_zh": "Il viaggio è stato lungo.",
+    "ex_py": "il viajo e stato lungo",
+    "ex_es": "El viaje fue largo."
+  },
+  {
+    "hanzi": "esperienza",
+    "pinyin": "esperientsa",
+    "es": "experiencia",
+    "level": 3,
+    "ex_zh": "È stata una bella esperienza.",
+    "ex_py": "e stata una bela esperientsa",
+    "ex_es": "Fue una linda experiencia."
+  },
+  {
+    "hanzi": "problema",
+    "pinyin": "problema",
+    "es": "problema",
+    "level": 3,
+    "ex_zh": "Non è un problema.",
+    "ex_py": "non e un problema",
+    "ex_es": "No es un problema."
+  },
+  {
+    "hanzi": "soluzione",
+    "pinyin": "solutsione",
+    "es": "solución",
+    "level": 3,
+    "ex_zh": "Cerchiamo una soluzione.",
+    "ex_py": "serkiamo una solutsione",
+    "ex_es": "Buscamos una solución."
+  },
+  {
+    "hanzi": "riunione",
+    "pinyin": "riunione",
+    "es": "reunión",
+    "level": 3,
+    "ex_zh": "La riunione è alle dieci.",
+    "ex_py": "la riunione e ale diechi",
+    "ex_es": "La reunión es a las diez."
+  },
+  {
+    "hanzi": "progetto",
+    "pinyin": "proyetto",
+    "es": "proyecto",
+    "level": 3,
+    "ex_zh": "Il progetto è pronto.",
+    "ex_py": "il proyetto e pronto",
+    "ex_es": "El proyecto está listo."
+  },
+  {
+    "hanzi": "scadenza",
+    "pinyin": "shadentsa",
+    "es": "vencimiento",
+    "level": 3,
+    "ex_zh": "La scadenza è venerdì.",
+    "ex_py": "la shadentsa e venerdí",
+    "ex_es": "El plazo es el viernes."
+  },
+  {
+    "hanzi": "salute",
+    "pinyin": "salute",
+    "es": "salud",
+    "level": 3,
+    "ex_zh": "Alla salute!",
+    "ex_py": "ala salute",
+    "ex_es": "¡Salud!"
+  },
+  {
+    "hanzi": "febbre",
+    "pinyin": "febre",
+    "es": "fiebre",
+    "level": 3,
+    "ex_zh": "Ho la febbre.",
+    "ex_py": "o la febre",
+    "ex_es": "Tengo fiebre."
+  },
+  {
+    "hanzi": "tosse",
+    "pinyin": "tose",
+    "es": "tos",
+    "level": 3,
+    "ex_zh": "Ho la tosse da ieri.",
+    "ex_py": "o la tose da ieri",
+    "ex_es": "Tengo tos desde ayer."
+  },
+  {
+    "hanzi": "appuntamento",
+    "pinyin": "appuntamento",
+    "es": "turno; cita",
+    "level": 3,
+    "ex_zh": "Ho un appuntamento dal medico.",
+    "ex_py": "o un appuntamento dal mediko",
+    "ex_es": "Tengo un turno con el médico."
+  },
+  {
+    "hanzi": "ricetta",
+    "pinyin": "richeta",
+    "es": "receta",
+    "level": 3,
+    "ex_zh": "Questa ricetta è semplice.",
+    "ex_py": "kuesta richeta e semplice",
+    "ex_es": "Esta receta es simple."
+  },
+  {
+    "hanzi": "ingrediente",
+    "pinyin": "ingrediente",
+    "es": "ingrediente",
+    "level": 3,
+    "ex_zh": "Manca un ingrediente.",
+    "ex_py": "manka un ingrediente",
+    "ex_es": "Falta un ingrediente."
+  },
+  {
+    "hanzi": "allergia",
+    "pinyin": "alerjia",
+    "es": "alergia",
+    "level": 3,
+    "ex_zh": "Ho un'allergia alle noci.",
+    "ex_py": "o unalerjia ale nochi",
+    "ex_es": "Tengo alergia a las nueces."
+  },
+  {
+    "hanzi": "ambiente",
+    "pinyin": "ambiente",
+    "es": "ambiente; medioambiente",
+    "level": 3,
+    "ex_zh": "Rispettiamo l'ambiente.",
+    "ex_py": "rispetiamo lambiente",
+    "ex_es": "Cuidemos el ambiente."
+  },
+  {
+    "hanzi": "inquinamento",
+    "pinyin": "inkuinamento",
+    "es": "contaminación",
+    "level": 3,
+    "ex_zh": "L'inquinamento è alto.",
+    "ex_py": "linkuinamento e alto",
+    "ex_es": "La contaminación es alta."
+  },
+  {
+    "hanzi": "riciclare",
+    "pinyin": "richiklare",
+    "es": "reciclar",
+    "level": 3,
+    "ex_zh": "Ricicliamo la carta.",
+    "ex_py": "richikliamo la karta",
+    "ex_es": "Reciclamos el papel."
+  },
+  {
+    "hanzi": "risparmiare",
+    "pinyin": "risparmiare",
+    "es": "ahorrar",
+    "level": 3,
+    "ex_zh": "Voglio risparmiare.",
+    "ex_py": "volio risparmiare",
+    "ex_es": "Quiero ahorrar."
+  },
+  {
+    "hanzi": "decidere",
+    "pinyin": "dechidere",
+    "es": "decidir",
+    "level": 3,
+    "ex_zh": "Devo decidere oggi.",
+    "ex_py": "devo dechidere oyi",
+    "ex_es": "Tengo que decidir hoy."
+  },
+  {
+    "hanzi": "sperare",
+    "pinyin": "sperare",
+    "es": "esperar (un deseo)",
+    "level": 3,
+    "ex_zh": "Spero di vederti.",
+    "ex_py": "spero di vederti",
+    "ex_es": "Espero verte."
+  },
+  {
+    "hanzi": "sembrare",
+    "pinyin": "sembrare",
+    "es": "parecer",
+    "level": 3,
+    "ex_zh": "Sembra una buona idea.",
+    "ex_py": "sembra una buona idea",
+    "ex_es": "Parece una buena idea."
+  },
+  {
+    "hanzi": "diventare",
+    "pinyin": "diventare",
+    "es": "volverse",
+    "level": 3,
+    "ex_zh": "Vuole diventare medico.",
+    "ex_py": "vuole diventare mediko",
+    "ex_es": "Quiere ser médico."
+  },
+  {
+    "hanzi": "riuscire",
+    "pinyin": "riushire",
+    "es": "lograr",
+    "level": 3,
+    "ex_zh": "Non riesco a dormire.",
+    "ex_py": "non riesko a dormire",
+    "ex_es": "No logro dormir."
+  },
+  {
+    "hanzi": "dimenticare",
+    "pinyin": "dimentikare",
+    "es": "olvidar",
+    "level": 3,
+    "ex_zh": "Ho dimenticato le chiavi.",
+    "ex_py": "o dimentikato le kiavi",
+    "ex_es": "Olvidé las llaves."
+  },
+  {
+    "hanzi": "ricordare",
+    "pinyin": "rikordare",
+    "es": "recordar",
+    "level": 3,
+    "ex_zh": "Ricordi il suo nome?",
+    "ex_py": "rikordi il suo nome",
+    "ex_es": "¿Te acordás de su nombre?"
+  },
+  {
+    "hanzi": "opinione",
+    "pinyin": "opinione",
+    "es": "opinión",
+    "level": 3,
+    "ex_zh": "Secondo me è giusto.",
+    "ex_py": "sekondo me e yusto",
+    "ex_es": "Para mí está bien."
+  },
+  {
+    "hanzi": "cultura",
+    "pinyin": "kultura",
+    "es": "cultura",
+    "level": 3,
+    "ex_zh": "La cultura del caffè.",
+    "ex_py": "la kultura del kafe",
+    "ex_es": "La cultura del café."
+  },
+  {
+    "hanzi": "ospite",
+    "pinyin": "ospite",
+    "es": "invitado; huésped",
+    "level": 3,
+    "ex_zh": "Siamo ospiti di Anna.",
+    "ex_py": "siamo ospiti di ana",
+    "ex_es": "Somos invitados de Anna."
+  },
+  {
+    "hanzi": "prenotazione",
+    "pinyin": "prenotatsione",
+    "es": "reserva",
+    "level": 3,
+    "ex_zh": "Confermo la prenotazione.",
+    "ex_py": "konfermo la prenotatsione",
+    "ex_es": "Confirmo la reserva."
+  },
+  {
+    "hanzi": "aumento",
+    "pinyin": "aumento",
+    "es": "aumento",
+    "level": 3,
+    "ex_zh": "Chiedo un aumento.",
+    "ex_py": "kiedo un aumento",
+    "ex_es": "Pido un aumento."
+  },
+  {
+    "hanzi": "obiettivo",
+    "pinyin": "obietivo",
+    "es": "objetivo",
+    "level": 3,
+    "ex_zh": "L'obiettivo è chiaro.",
+    "ex_py": "lobietivo e kiaro",
+    "ex_es": "El objetivo está claro."
+  },
+  {
+    "hanzi": "sebbene",
+    "pinyin": "sebene",
+    "es": "aunque",
+    "level": 4,
+    "ex_zh": "Sebbene piova, esco.",
+    "ex_py": "sebene piova, esko",
+    "ex_es": "Aunque llueva, salgo."
+  },
+  {
+    "hanzi": "nonostante",
+    "pinyin": "nonostante",
+    "es": "a pesar de",
+    "level": 4,
+    "ex_zh": "Nonostante la pioggia, esco.",
+    "ex_py": "nonostante la pioya, esko",
+    "ex_es": "A pesar de la lluvia, salgo."
+  },
+  {
+    "hanzi": "tuttavia",
+    "pinyin": "tuttavia",
+    "es": "sin embargo",
+    "level": 4,
+    "ex_zh": "È tardi, tuttavia vengo.",
+    "ex_py": "e tardi, tuttavia vengo",
+    "ex_es": "Es tarde, sin embargo voy."
+  },
+  {
+    "hanzi": "inoltre",
+    "pinyin": "inoltre",
+    "es": "además",
+    "level": 4,
+    "ex_zh": "Inoltre, costa meno.",
+    "ex_py": "inoltre, kosta meno",
+    "ex_es": "Además, sale menos."
+  },
+  {
+    "hanzi": "piuttosto",
+    "pinyin": "piutosto",
+    "es": "más bien",
+    "level": 4,
+    "ex_zh": "È piuttosto caro.",
+    "ex_py": "e piutosto karo",
+    "ex_es": "Es más bien caro."
+  },
+  {
+    "hanzi": "addirittura",
+    "pinyin": "adiritura",
+    "es": "incluso; hasta",
+    "level": 4,
+    "ex_zh": "Non è venuto, addirittura.",
+    "ex_py": "non e venuto, adiritura",
+    "ex_es": "Ni siquiera vino."
+  },
+  {
+    "hanzi": "probabilmente",
+    "pinyin": "probabilmente",
+    "es": "probablemente",
+    "level": 4,
+    "ex_zh": "Probabilmente arrivo tardi.",
+    "ex_py": "probabilmente arrivo tardi",
+    "ex_es": "Probablemente llegue tarde."
+  },
+  {
+    "hanzi": "sicuramente",
+    "pinyin": "sikuramente",
+    "es": "seguramente",
+    "level": 4,
+    "ex_zh": "Sicuramente ti scrivo.",
+    "ex_py": "sikuramente ti skrivo",
+    "ex_es": "Seguro te escribo."
+  },
+  {
+    "hanzi": "infatti",
+    "pinyin": "infati",
+    "es": "de hecho",
+    "level": 4,
+    "ex_zh": "Infatti è chiuso.",
+    "ex_py": "infati e kiuso",
+    "ex_es": "De hecho está cerrado."
+  },
+  {
+    "hanzi": "argomento",
+    "pinyin": "argomento",
+    "es": "tema",
+    "level": 4,
+    "ex_zh": "Cambiamo argomento.",
+    "ex_py": "kanbiamo argomento",
+    "ex_es": "Cambiemos de tema."
+  },
+  {
+    "hanzi": "fonte",
+    "pinyin": "fonte",
+    "es": "fuente",
+    "level": 4,
+    "ex_zh": "La fonte è affidabile.",
+    "ex_py": "la fonte e afidabile",
+    "ex_es": "La fuente es confiable."
+  },
+  {
+    "hanzi": "articolo",
+    "pinyin": "artikolo",
+    "es": "artículo",
+    "level": 4,
+    "ex_zh": "Ho letto un articolo.",
+    "ex_py": "o leto un artikolo",
+    "ex_es": "Leí un artículo."
+  },
+  {
+    "hanzi": "giornale",
+    "pinyin": "yornale",
+    "es": "diario",
+    "level": 4,
+    "ex_zh": "Leggo il giornale.",
+    "ex_py": "lego il yornale",
+    "ex_es": "Leo el diario."
+  },
+  {
+    "hanzi": "titolo",
+    "pinyin": "titolo",
+    "es": "título",
+    "level": 4,
+    "ex_zh": "Il titolo è chiaro.",
+    "ex_py": "il titolo e kiaro",
+    "ex_es": "El título es claro."
+  },
+  {
+    "hanzi": "intervista",
+    "pinyin": "intervista",
+    "es": "entrevista",
+    "level": 4,
+    "ex_zh": "Un'intervista in radio.",
+    "ex_py": "unintervista in radio",
+    "ex_es": "Una entrevista en la radio."
+  },
+  {
+    "hanzi": "società",
+    "pinyin": "sochietá",
+    "es": "sociedad",
+    "level": 4,
+    "ex_zh": "La società cambia.",
+    "ex_py": "la sochietá kambia",
+    "ex_es": "La sociedad cambia."
+  },
+  {
+    "hanzi": "cittadino",
+    "pinyin": "chitadino",
+    "es": "ciudadano",
+    "level": 4,
+    "ex_zh": "Ogni cittadino vota.",
+    "ex_py": "oñi chitadino vota",
+    "ex_es": "Cada ciudadano vota."
+  },
+  {
+    "hanzi": "voto",
+    "pinyin": "voto",
+    "es": "voto",
+    "level": 4,
+    "ex_zh": "Il voto è segreto.",
+    "ex_py": "il voto e segreto",
+    "ex_es": "El voto es secreto."
+  },
+  {
+    "hanzi": "elezione",
+    "pinyin": "eletsione",
+    "es": "elección",
+    "level": 4,
+    "ex_zh": "Le elezioni sono a giugno.",
+    "ex_py": "le eletsioni sono a yuño",
+    "ex_es": "Las elecciones son en junio."
+  },
+  {
+    "hanzi": "economia",
+    "pinyin": "ekonomia",
+    "es": "economía",
+    "level": 4,
+    "ex_zh": "L'economia rallenta.",
+    "ex_py": "lekonomia ralenta",
+    "ex_es": "La economía se frena."
+  },
+  {
+    "hanzi": "inflazione",
+    "pinyin": "inflatsione",
+    "es": "inflación",
+    "level": 4,
+    "ex_zh": "L'inflazione sale.",
+    "ex_py": "linflatsione sale",
+    "ex_es": "La inflación sube."
+  },
+  {
+    "hanzi": "disoccupazione",
+    "pinyin": "disokupatsione",
+    "es": "desempleo",
+    "level": 4,
+    "ex_zh": "La disoccupazione scende.",
+    "ex_py": "la disokupatsione shende",
+    "ex_es": "El desempleo baja."
+  },
+  {
+    "hanzi": "contratto",
+    "pinyin": "kontrato",
+    "es": "contrato",
+    "level": 4,
+    "ex_zh": "Firmiamo il contratto.",
+    "ex_py": "firmiamo il kontrakto",
+    "ex_es": "Firmamos el contrato."
+  },
+  {
+    "hanzi": "clausola",
+    "pinyin": "klausola",
+    "es": "cláusula",
+    "level": 4,
+    "ex_zh": "Questa clausola è chiara.",
+    "ex_py": "kuesta klausola e kiara",
+    "ex_es": "Esta cláusula es clara."
+  },
+  {
+    "hanzi": "trattativa",
+    "pinyin": "trativa",
+    "es": "negociación",
+    "level": 4,
+    "ex_zh": "La trattativa continua.",
+    "ex_py": "la trativa kontinua",
+    "ex_es": "La negociación sigue."
+  },
+  {
+    "hanzi": "strategia",
+    "pinyin": "strateyia",
+    "es": "estrategia",
+    "level": 4,
+    "ex_zh": "Serve una strategia.",
+    "ex_py": "serve una strateyia",
+    "ex_es": "Hace falta una estrategia."
+  },
+  {
+    "hanzi": "competenza",
+    "pinyin": "kompetentsa",
+    "es": "competencia; habilidad",
+    "level": 4,
+    "ex_zh": "Ha molte competenze.",
+    "ex_py": "a molte kompetentse",
+    "ex_es": "Tiene muchas habilidades."
+  },
+  {
+    "hanzi": "colloquio",
+    "pinyin": "kolokuio",
+    "es": "entrevista laboral",
+    "level": 4,
+    "ex_zh": "Domani ho un colloquio.",
+    "ex_py": "domani o un kolokuio",
+    "ex_es": "Mañana tengo una entrevista."
+  },
+  {
+    "hanzi": "curriculum",
+    "pinyin": "kurikulum",
+    "es": "currículum",
+    "level": 4,
+    "ex_zh": "Allego il curriculum.",
+    "ex_py": "alego il kurikulum",
+    "ex_es": "Adjunto el currículum."
+  },
+  {
+    "hanzi": "diritto",
+    "pinyin": "dirito",
+    "es": "derecho",
+    "level": 4,
+    "ex_zh": "È un diritto.",
+    "ex_py": "e un dirito",
+    "ex_es": "Es un derecho."
+  },
+  {
+    "hanzi": "feedback",
+    "pinyin": "fedback",
+    "es": "devolución",
+    "level": 4,
+    "ex_zh": "Chiedo un feedback.",
+    "ex_py": "kiedo un fedback",
+    "ex_es": "Pido una devolución."
+  },
+  {
+    "hanzi": "affidabile",
+    "pinyin": "afidabile",
+    "es": "confiable",
+    "level": 4,
+    "ex_zh": "È una persona affidabile.",
+    "ex_py": "e una persona afidabile",
+    "ex_es": "Es una persona confiable."
+  },
+  {
+    "hanzi": "rallentare",
+    "pinyin": "ralentare",
+    "es": "desacelerar",
+    "level": 4,
+    "ex_zh": "Il traffico rallenta.",
+    "ex_py": "il trafiko ralenta",
+    "ex_es": "El tráfico se pone lento."
+  },
+  {
+    "hanzi": "firmare",
+    "pinyin": "firmare",
+    "es": "firmar",
+    "level": 4,
+    "ex_zh": "Devo firmare qui.",
+    "ex_py": "devo firmare kui",
+    "ex_es": "Tengo que firmar acá."
+  },
+  {
+    "hanzi": "allegare",
+    "pinyin": "alegare",
+    "es": "adjuntar",
+    "level": 4,
+    "ex_zh": "Allego il documento.",
+    "ex_py": "alego il dokumento",
+    "ex_es": "Adjunto el documento."
+  },
+  {
+    "hanzi": "sfumatura",
+    "pinyin": "sfumatura",
+    "es": "matiz",
+    "level": 5,
+    "ex_zh": "C'è una sfumatura ironica.",
+    "ex_py": "che una sfumatura ironika",
+    "ex_es": "Hay un matiz irónico."
+  },
+  {
+    "hanzi": "registro",
+    "pinyin": "registro",
+    "es": "registro",
+    "level": 5,
+    "ex_zh": "Il registro è formale.",
+    "ex_py": "il registro e formale",
+    "ex_es": "El registro es formal."
+  },
+  {
+    "hanzi": "implicito",
+    "pinyin": "implicito",
+    "es": "implícito",
+    "level": 5,
+    "ex_zh": "Il senso è implicito.",
+    "ex_py": "il senso e implicito",
+    "ex_es": "El sentido es implícito."
+  },
+  {
+    "hanzi": "esplicito",
+    "pinyin": "esplicito",
+    "es": "explícito",
+    "level": 5,
+    "ex_zh": "Sii esplicito.",
+    "ex_py": "si esplicito",
+    "ex_es": "Sé explícito."
+  },
+  {
+    "hanzi": "presupposto",
+    "pinyin": "presuposto",
+    "es": "supuesto",
+    "level": 5,
+    "ex_zh": "È un presupposto falso.",
+    "ex_py": "e un presuposto falso",
+    "ex_es": "Es un supuesto falso."
+  },
+  {
+    "hanzi": "coerenza",
+    "pinyin": "koerentsa",
+    "es": "coherencia",
+    "level": 5,
+    "ex_zh": "Manca coerenza.",
+    "ex_py": "manka koerentsa",
+    "ex_es": "Falta coherencia."
+  },
+  {
+    "hanzi": "contraddizione",
+    "pinyin": "kontraditsione",
+    "es": "contradicción",
+    "level": 5,
+    "ex_zh": "C'è una contraddizione.",
+    "ex_py": "che una kontraditsione",
+    "ex_es": "Hay una contradicción."
+  },
+  {
+    "hanzi": "ambiguità",
+    "pinyin": "ambiguitá",
+    "es": "ambigüedad",
+    "level": 5,
+    "ex_zh": "Evita l'ambiguità.",
+    "ex_py": "evita lambiguitá",
+    "ex_es": "Evitá la ambigüedad."
+  },
+  {
+    "hanzi": "ironia",
+    "pinyin": "ironia",
+    "es": "ironía",
+    "level": 5,
+    "ex_zh": "Lo dice con ironia.",
+    "ex_py": "lo diche kon ironia",
+    "ex_es": "Lo dice con ironía."
+  },
+  {
+    "hanzi": "metafora",
+    "pinyin": "metafora",
+    "es": "metáfora",
+    "level": 5,
+    "ex_zh": "È solo una metafora.",
+    "ex_py": "e solo una metafora",
+    "ex_es": "Es solo una metáfora."
+  },
+  {
+    "hanzi": "ipotesi",
+    "pinyin": "ipotesi",
+    "es": "hipótesis",
+    "level": 5,
+    "ex_zh": "È un'ipotesi.",
+    "ex_py": "e unipotesi",
+    "ex_es": "Es una hipótesis."
+  },
+  {
+    "hanzi": "verifica",
+    "pinyin": "verifika",
+    "es": "verificación",
+    "level": 5,
+    "ex_zh": "Serve una verifica.",
+    "ex_py": "serve una verifika",
+    "ex_es": "Hace falta una verificación."
+  },
+  {
+    "hanzi": "criterio",
+    "pinyin": "kriterio",
+    "es": "criterio",
+    "level": 5,
+    "ex_zh": "Con quale criterio?",
+    "ex_py": "kon kuale kriterio",
+    "ex_es": "¿Con qué criterio?"
+  },
+  {
+    "hanzi": "metodologia",
+    "pinyin": "metodoloyia",
+    "es": "metodología",
+    "level": 5,
+    "ex_zh": "La metodologia è chiara.",
+    "ex_py": "la metodoloyia e kiara",
+    "ex_es": "La metodología es clara."
+  },
+  {
+    "hanzi": "contesto",
+    "pinyin": "kontesto",
+    "es": "contexto",
+    "level": 5,
+    "ex_zh": "Dipende dal contesto.",
+    "ex_py": "dipende dal kontesto",
+    "ex_es": "Depende del contexto."
+  },
+  {
+    "hanzi": "prospettiva",
+    "pinyin": "prospetiva",
+    "es": "perspectiva",
+    "level": 5,
+    "ex_zh": "Da questa prospettiva.",
+    "ex_py": "da kuesta prospetiva",
+    "ex_es": "Desde esta perspectiva."
+  },
+  {
+    "hanzi": "tendenza",
+    "pinyin": "tendentsa",
+    "es": "tendencia",
+    "level": 5,
+    "ex_zh": "La tendenza cambia.",
+    "ex_py": "la tendentsa kambia",
+    "ex_es": "La tendencia cambia."
+  },
+  {
+    "hanzi": "fenomeno",
+    "pinyin": "fenomeno",
+    "es": "fenómeno",
+    "level": 5,
+    "ex_zh": "È un fenomeno recente.",
+    "ex_py": "e un fenomeno rechente",
+    "ex_es": "Es un fenómeno reciente."
+  },
+  {
+    "hanzi": "conseguenza",
+    "pinyin": "konseguentsa",
+    "es": "consecuencia",
+    "level": 5,
+    "ex_zh": "Ne accetto le conseguenze.",
+    "ex_py": "ne acheto le konseguentse",
+    "ex_es": "Acepto las consecuencias."
+  },
+  {
+    "hanzi": "premessa",
+    "pinyin": "premesa",
+    "es": "premisa",
+    "level": 5,
+    "ex_zh": "La premessa è sbagliata.",
+    "ex_py": "la premesa e sbalia",
+    "ex_es": "La premisa está mal."
+  },
+  {
+    "hanzi": "conclusione",
+    "pinyin": "konklusione",
+    "es": "conclusión",
+    "level": 5,
+    "ex_zh": "La conclusione è affrettata.",
+    "ex_py": "la konklusione e afretata",
+    "ex_es": "La conclusión es apresurada."
+  },
+  {
+    "hanzi": "argomentare",
+    "pinyin": "argomentare",
+    "es": "argumentar",
+    "level": 5,
+    "ex_zh": "Sa argomentare bene.",
+    "ex_py": "sa argomentare bene",
+    "ex_es": "Sabe argumentar bien."
+  },
+  {
+    "hanzi": "confutare",
+    "pinyin": "konfutare",
+    "es": "refutar",
+    "level": 5,
+    "ex_zh": "Confuto la tesi.",
+    "ex_py": "konfuto la tezi",
+    "ex_es": "Refuto la tesis."
+  },
+  {
+    "hanzi": "sostenere",
+    "pinyin": "sostenere",
+    "es": "sostener",
+    "level": 5,
+    "ex_zh": "Sostiene il contrario.",
+    "ex_py": "sostiene il kontrario",
+    "ex_es": "Sostiene lo contrario."
+  },
+  {
+    "hanzi": "precisare",
+    "pinyin": "prechisare",
+    "es": "precisar",
+    "level": 5,
+    "ex_zh": "Preciso un punto.",
+    "ex_py": "prechiso un punto",
+    "ex_es": "Preciso un punto."
+  },
+  {
+    "hanzi": "attenuare",
+    "pinyin": "atenuare",
+    "es": "atenuar",
+    "level": 5,
+    "ex_zh": "Attenua il giudizio.",
+    "ex_py": "atenua il yuditsio",
+    "ex_es": "Atenúa el juicio."
+  },
+  {
+    "hanzi": "enfatizzare",
+    "pinyin": "enfatidzare",
+    "es": "enfatizar",
+    "level": 5,
+    "ex_zh": "Enfatizza il rischio.",
+    "ex_py": "enfatidza il riskio",
+    "ex_es": "Enfatiza el riesgo."
+  },
+  {
+    "hanzi": "formalizzare",
+    "pinyin": "formalidzare",
+    "es": "formalizar",
+    "level": 5,
+    "ex_zh": "Vanno formalizzati.",
+    "ex_py": "vano formalidzati",
+    "ex_es": "Hay que formalizarlos."
+  },
+  {
+    "hanzi": "adeguare",
+    "pinyin": "adeguare",
+    "es": "adecuar",
+    "level": 5,
+    "ex_zh": "Adeguo il tono.",
+    "ex_py": "adeguo il tono",
+    "ex_es": "Adecúo el tono."
+  },
+  {
+    "hanzi": "approfondire",
+    "pinyin": "aprofondire",
+    "es": "profundizar",
+    "level": 5,
+    "ex_zh": "Approfondiamo dopo.",
+    "ex_py": "aprofondiamo dopo",
+    "ex_es": "Lo profundizamos después."
+  },
+  {
+    "hanzi": "giudizio",
+    "pinyin": "yuditsio",
+    "es": "juicio",
+    "level": 5,
+    "ex_zh": "Sospendo il giudizio.",
+    "ex_py": "sospendo il yuditsio",
+    "ex_es": "Suspendo el juicio."
+  },
+  {
+    "hanzi": "rischio",
+    "pinyin": "riskio",
+    "es": "riesgo",
+    "level": 5,
+    "ex_zh": "C'è un rischio.",
+    "ex_py": "che un riskio",
+    "ex_es": "Hay un riesgo."
+  },
+  {
+    "hanzi": "tesi",
+    "pinyin": "tezi",
+    "es": "tesis",
+    "level": 5,
+    "ex_zh": "La tesi non regge.",
+    "ex_py": "la tezi non reye",
+    "ex_es": "La tesis no se sostiene."
+  },
+  {
+    "hanzi": "tono",
+    "pinyin": "tono",
+    "es": "tono",
+    "level": 5,
+    "ex_zh": "Il tono è sarcastico.",
+    "ex_py": "il tono e sarkastiko",
+    "ex_es": "El tono es sarcástico."
+  },
+  {
+    "hanzi": "recente",
+    "pinyin": "rechente",
+    "es": "reciente",
+    "level": 5,
+    "ex_zh": "Una legge recente.",
+    "ex_py": "una leye rechente",
+    "ex_es": "Una ley reciente."
+  },
+  {
+    "hanzi": "nondimeno",
+    "pinyin": "nondimeno",
+    "es": "no obstante",
+    "level": 6,
+    "ex_zh": "È caro, nondimeno lo compro.",
+    "ex_py": "e karo, nondimeno lo kompro",
+    "ex_es": "Es caro, no obstante lo compro."
+  },
+  {
+    "hanzi": "ossia",
+    "pinyin": "osia",
+    "es": "o sea",
+    "level": 6,
+    "ex_zh": "Parte domani, ossia lunedì.",
+    "ex_py": "parte domani, osia lunedí",
+    "ex_es": "Sale mañana, o sea el lunes."
+  },
+  {
+    "hanzi": "pressoché",
+    "pinyin": "presoke",
+    "es": "casi",
+    "level": 6,
+    "ex_zh": "È pressoché impossibile.",
+    "ex_py": "e presoke imposibile",
+    "ex_es": "Es casi imposible."
+  },
+  {
+    "hanzi": "bensì",
+    "pinyin": "bensí",
+    "es": "sino",
+    "level": 6,
+    "ex_zh": "Non è pigrizia, bensì cautela.",
+    "ex_py": "non e pigrizia, bensí kautela",
+    "ex_es": "No es pereza, sino cautela."
+  },
+  {
+    "hanzi": "quantunque",
+    "pinyin": "kuantunke",
+    "es": "aunque (formal)",
+    "level": 6,
+    "ex_zh": "Quantunque stanco, continua.",
+    "ex_py": "kuantunke stanko, kontinua",
+    "ex_es": "Aunque cansado, sigue."
+  },
+  {
+    "hanzi": "tuttora",
+    "pinyin": "tutora",
+    "es": "todavía (formal)",
+    "level": 6,
+    "ex_zh": "È tuttora in carica.",
+    "ex_py": "e tutora in karika",
+    "ex_es": "Sigue en el cargo."
+  },
+  {
+    "hanzi": "oramai",
+    "pinyin": "oramai",
+    "es": "ya (a esta altura)",
+    "level": 6,
+    "ex_zh": "Oramai è tardi.",
+    "ex_py": "oramai e tardi",
+    "ex_es": "A esta altura es tarde."
+  },
+  {
+    "hanzi": "sfumare",
+    "pinyin": "sfumare",
+    "es": "matizar; desvanecer",
+    "level": 6,
+    "ex_zh": "Il confine sfuma.",
+    "ex_py": "il konfine sfuma",
+    "ex_es": "El límite se desdibuja."
+  },
+  {
+    "hanzi": "sottintendere",
+    "pinyin": "sotintendere",
+    "es": "dar a entender",
+    "level": 6,
+    "ex_zh": "Cosa sottintendi?",
+    "ex_py": "kosa sotintendi",
+    "ex_es": "¿Qué estás dando a entender?"
+  },
+  {
+    "hanzi": "palesare",
+    "pinyin": "palesare",
+    "es": "hacer evidente",
+    "level": 6,
+    "ex_zh": "Non palesa il disagio.",
+    "ex_py": "non palesa il dizayo",
+    "ex_es": "No deja ver el malestar."
+  },
+  {
+    "hanzi": "avvalorare",
+    "pinyin": "avvalorare",
+    "es": "reforzar",
+    "level": 6,
+    "ex_zh": "I dati avvalorano la tesi.",
+    "ex_py": "i dati avvalorano la tezi",
+    "ex_es": "Los datos refuerzan la tesis."
+  },
+  {
+    "hanzi": "ridondante",
+    "pinyin": "ridondante",
+    "es": "redundante",
+    "level": 6,
+    "ex_zh": "La frase è ridondante.",
+    "ex_py": "la frase e ridondante",
+    "ex_es": "La frase es redundante."
+  },
+  {
+    "hanzi": "pregnante",
+    "pinyin": "preñante",
+    "es": "denso de sentido",
+    "level": 6,
+    "ex_zh": "Un'immagine pregnante.",
+    "ex_py": "unimayine preñante",
+    "ex_es": "Una imagen cargada de sentido."
+  },
+  {
+    "hanzi": "perentorio",
+    "pinyin": "perentorio",
+    "es": "tajante",
+    "level": 6,
+    "ex_zh": "Un tono perentorio.",
+    "ex_py": "un tono perentorio",
+    "ex_es": "Un tono tajante."
+  },
+  {
+    "hanzi": "forbito",
+    "pinyin": "forbito",
+    "es": "pulido; culto",
+    "level": 6,
+    "ex_zh": "Un italiano forbito.",
+    "ex_py": "un italiano forbito",
+    "ex_es": "Un italiano muy pulido."
+  },
+  {
+    "hanzi": "colloquiale",
+    "pinyin": "kolokuiale",
+    "es": "coloquial",
+    "level": 6,
+    "ex_zh": "Uno stile colloquiale.",
+    "ex_py": "uno stile kolokuiale",
+    "ex_es": "Un estilo coloquial."
+  },
+  {
+    "hanzi": "eufemismo",
+    "pinyin": "eufemismo",
+    "es": "eufemismo",
+    "level": 6,
+    "ex_zh": "È un eufemismo.",
+    "ex_py": "e un eufemismo",
+    "ex_es": "Es un eufemismo."
+  },
+  {
+    "hanzi": "litote",
+    "pinyin": "litote",
+    "es": "lítote",
+    "level": 6,
+    "ex_zh": "«Non male» è una litote.",
+    "ex_py": "non male e una litote",
+    "ex_es": "«No está mal» es una lítote."
+  },
+  {
+    "hanzi": "ossimoro",
+    "pinyin": "osimo",
+    "es": "oxímoron",
+    "level": 6,
+    "ex_zh": "«Silenzio assordante» è un ossimoro.",
+    "ex_py": "silentsio asordante e un osimo",
+    "ex_es": "«Silencio ensordecedor» es un oxímoron."
+  },
+  {
+    "hanzi": "pleonasmo",
+    "pinyin": "pleonasmo",
+    "es": "pleonasmo",
+    "level": 6,
+    "ex_zh": "«Sali su» è un pleonasmo.",
+    "ex_py": "sali su e un pleonasmo",
+    "ex_es": "«Subí arriba» es un pleonasmo."
+  },
+  {
+    "hanzi": "aulico",
+    "pinyin": "auliko",
+    "es": "elevado; áulico",
+    "level": 6,
+    "ex_zh": "Un lessico aulico.",
+    "ex_py": "un lesiko auliko",
+    "ex_es": "Un léxico elevado."
+  },
+  {
+    "hanzi": "sciatto",
+    "pinyin": "shato",
+    "es": "descuidado",
+    "level": 6,
+    "ex_zh": "Uno stile sciatto.",
+    "ex_py": "uno stile shato",
+    "ex_es": "Un estilo descuidado."
+  },
+  {
+    "hanzi": "pedante",
+    "pinyin": "pedante",
+    "es": "pedante",
+    "level": 6,
+    "ex_zh": "Non essere pedante.",
+    "ex_py": "non esere pedante",
+    "ex_es": "No seas pedante."
+  },
+  {
+    "hanzi": "cristallino",
+    "pinyin": "kristalino",
+    "es": "cristalino",
+    "level": 6,
+    "ex_zh": "Un ragionamento cristallino.",
+    "ex_py": "un rayonamento kristalino",
+    "ex_es": "Un razonamiento cristalino."
+  },
+  {
+    "hanzi": "sfuggente",
+    "pinyin": "sfuyente",
+    "es": "evasivo",
+    "level": 6,
+    "ex_zh": "Una risposta sfuggente.",
+    "ex_py": "una risposta sfuyente",
+    "ex_es": "Una respuesta evasiva."
+  },
+  {
+    "hanzi": "lapidario",
+    "pinyin": "lapidario",
+    "es": "lapidario",
+    "level": 6,
+    "ex_zh": "Un giudizio lapidario.",
+    "ex_py": "un yuditsio lapidario",
+    "ex_es": "Un juicio lapidario."
+  },
+  {
+    "hanzi": "connotazione",
+    "pinyin": "konotatsione",
+    "es": "connotación",
+    "level": 6,
+    "ex_zh": "Ha una connotazione negativa.",
+    "ex_py": "a una konotatsione negativa",
+    "ex_es": "Tiene una connotación negativa."
+  },
+  {
+    "hanzi": "denotazione",
+    "pinyin": "denotatsione",
+    "es": "denotación",
+    "level": 6,
+    "ex_zh": "La denotazione è neutra.",
+    "ex_py": "la denotatsione e neutra",
+    "ex_es": "La denotación es neutra."
+  },
+  {
+    "hanzi": "disagio",
+    "pinyin": "dizayo",
+    "es": "malestar",
+    "level": 6,
+    "ex_zh": "Si percepisce un disagio.",
+    "ex_py": "si perchepishe un dizayo",
+    "ex_es": "Se percibe un malestar."
+  },
+  {
+    "hanzi": "cautela",
+    "pinyin": "kautela",
+    "es": "cautela",
+    "level": 6,
+    "ex_zh": "Procedi con cautela.",
+    "ex_py": "prochedi kon kautela",
+    "ex_es": "Avanzá con cautela."
+  },
+  {
+    "hanzi": "lessico",
+    "pinyin": "lesiko",
+    "es": "léxico",
+    "level": 6,
+    "ex_zh": "Il lessico è ricco.",
+    "ex_py": "il lesiko e riko",
+    "ex_es": "El léxico es rico."
+  },
+  {
+    "hanzi": "ragionamento",
+    "pinyin": "rayonamento",
+    "es": "razonamiento",
+    "level": 6,
+    "ex_zh": "Il ragionamento regge.",
+    "ex_py": "il rayonamento reye",
+    "ex_es": "El razonamiento se sostiene."
+  },
+  {
+    "hanzi": "confine",
+    "pinyin": "konfine",
+    "es": "límite; frontera",
+    "level": 6,
+    "ex_zh": "Il confine è labile.",
+    "ex_py": "il konfine e labile",
+    "ex_es": "El límite es lábil."
+  },
+  {
+    "hanzi": "labile",
+    "pinyin": "labile",
+    "es": "lábil",
+    "level": 6,
+    "ex_zh": "Un confine labile.",
+    "ex_py": "un konfine labile",
+    "ex_es": "Un límite lábil."
+  },
+  {
+    "hanzi": "assordante",
+    "pinyin": "asordante",
+    "es": "ensordecedor",
+    "level": 6,
+    "ex_zh": "Un silenzio assordante.",
+    "ex_py": "un silentsio asordante",
+    "ex_es": "Un silencio ensordecedor."
+  }
+]

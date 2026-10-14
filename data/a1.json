@@ -1,0 +1,552 @@
+[
+  {
+    "number": 1,
+    "title": "Sonidos del italiano",
+    "summary": "Vocales, c y g, gn, gli, sc y el acento que cambia la palabra.",
+    "body": [
+      "El italiano se lee casi como se escribe. Las vocales son a, e, i, o, u, siempre nítidas: casa, vino, buono.",
+      "C y g cambian delante de e o i. Casa es «kasa», pero cena es «chena». Gatto es «gato», gelato es «yelato». Para mantener el sonido duro se escribe h: spaghetti.",
+      "Gn suena como la ñ de «año»: gnocchi. Gli suena como la ll de «llave» en varias regiones, más una i: figlio. Sc delante de e o i suena como sh: pesce.",
+      "La doble consonante se sostiene: anno no es ano, y el acento escrito marca la sílaba: perché, città, caffè. Si el acento cae en otro lado, es otra palabra."
+    ],
+    "pins": [
+      "casa",
+      "cena",
+      "gatto",
+      "gelato",
+      "figlio",
+      "gnocchi",
+      "pesce",
+      "spaghetti",
+      "perché",
+      "città",
+      "pizza",
+      "anno",
+      "caffè",
+      "buono"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Saludos",
+    "summary": "Hola, gracias, perdón y la diferencia entre vos y usted.",
+    "body": [
+      "Ciao sirve para llegar y para irse, con alguien de confianza. Buongiorno es hasta la tarde. Buonasera cubre la tarde-noche. Buonanotte es para despedirse a dormir.",
+      "Grazie se responde con prego. Scusa es con alguien cercano. Scusi es de respeto, la forma de lei. Piacere cierra una presentación.",
+      "Come stai pregunta cómo estás. Sto bene y sto male alcanzan para responder. Arrivederci es la despedida neutra. A domani deja la cita para el día siguiente."
+    ],
+    "pins": [
+      "ciao",
+      "buongiorno",
+      "buonasera",
+      "buonanotte",
+      "arrivederci",
+      "grazie",
+      "prego",
+      "favore",
+      "scusa",
+      "scusi",
+      "piacere",
+      "bene",
+      "male",
+      "sì",
+      "no"
+    ],
+    "dialogue": [
+      {
+        "zh": "Buongiorno, come stai?",
+        "py": "buon yorno, kome stai",
+        "es": "Buen día, ¿cómo estás?"
+      },
+      {
+        "zh": "Bene, grazie. E tu?",
+        "py": "bene, gratsie. e tu",
+        "es": "Bien, gracias. ¿Y vos?"
+      },
+      {
+        "zh": "Bene. Piacere di conoscerti.",
+        "py": "bene. piachere di konosherti",
+        "es": "Bien. Mucho gusto."
+      },
+      {
+        "zh": "Piacere mio. A domani.",
+        "py": "piachere mio. a domani",
+        "es": "El gusto es mío. Hasta mañana."
+      },
+      {
+        "zh": "Arrivederci!",
+        "py": "arrivederchi",
+        "es": "¡Hasta luego!"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "¿Cómo se dice «hola» con confianza?",
+        "options": [
+          "Ciao",
+          "Scusi",
+          "Conto",
+          "Biglietto"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "¿Qué responde a grazie?",
+        "options": [
+          "Prego",
+          "Male",
+          "Città",
+          "Pane"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Scusi se usa sobre todo con…",
+        "options": [
+          "una persona de respeto",
+          "un gato",
+          "la cuenta",
+          "el color rojo"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Buonanotte se dice…",
+        "options": [
+          "al despedirse de noche",
+          "a las ocho de la mañana",
+          "para pedir la cuenta",
+          "para preguntar el precio"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Arrivederci significa…",
+        "options": [
+          "hasta luego",
+          "por favor",
+          "tengo frío",
+          "a la izquierda"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Presentarse",
+    "summary": "Yo, vos, él y las primeras frases con essere y chiamarsi.",
+    "body": [
+      "Io, tu, lui, lei, noi, voi, loro son los pronombres. Lei también es «usted». Voi es «ustedes».",
+      "Essere en presente: sono, sei, è, siamo, siete, sono. Mi chiamo Luca. Sono di Buenos Aires. Sono studente.",
+      "Come ti chiami pregunta el nombre. Dove abiti pregunta dónde vivís. Abito in Argentina. Parlo spagnolo e un po' di italiano."
+    ],
+    "pins": [
+      "io",
+      "tu",
+      "lui",
+      "lei",
+      "noi",
+      "voi",
+      "loro",
+      "essere",
+      "chiamarsi",
+      "nome",
+      "dove",
+      "abitare",
+      "italiano",
+      "spagnolo",
+      "studente"
+    ],
+    "dialogue": [
+      {
+        "zh": "Ciao, io sono Luca. E tu?",
+        "py": "chao, io sono luka. e tu",
+        "es": "Hola, yo soy Luca. ¿Y vos?"
+      },
+      {
+        "zh": "Mi chiamo Ana. Piacere.",
+        "py": "mi kiamo ana. piachere",
+        "es": "Me llamo Ana. Mucho gusto."
+      },
+      {
+        "zh": "Di dove sei?",
+        "py": "di dove sei",
+        "es": "¿De dónde sos?"
+      },
+      {
+        "zh": "Sono argentina. Abito a Buenos Aires.",
+        "py": "sono arjentina. abito a buenos aires",
+        "es": "Soy argentina. Vivo en Buenos Aires."
+      },
+      {
+        "zh": "Parli italiano?",
+        "py": "parli italiano",
+        "es": "¿Hablás italiano?"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Números",
+    "summary": "Del uno al diez, las decenas útiles y preguntar un precio.",
+    "body": [
+      "Uno cambia: un caffè, una pizza, uno studente. Del dos al diez son invariables: due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+      "Venti, cento y mille cubren las cantidades del día. Gli euro no cambian de forma. Quanto costa abre el precio.",
+      "Las horas usan essere en plural con la mayoría: sono le tre, sono le sei. Con la una se dice è l'una. Che ora è pregunta la hora."
+    ],
+    "pins": [
+      "uno",
+      "due",
+      "tre",
+      "quattro",
+      "cinque",
+      "sei",
+      "sette",
+      "otto",
+      "nove",
+      "dieci",
+      "quindici",
+      "venti",
+      "cento",
+      "mille",
+      "euro",
+      "quanto",
+      "ora"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "La familia",
+    "summary": "Madre, padre, hermanos y los posesivos mio y mia.",
+    "body": [
+      "Famiglia junta a todos. Madre y padre, fratello y sorella, figlio y figlia, nonno y nonna, zio y zia, marito y moglie, bambino.",
+      "El posesivo concuerda: mio fratello, mia sorella, i miei fratelli. Con un pariente singular y cercano el artículo se cae: mio padre, mia madre. En plural o con loro vuelve: i miei fratelli, la loro madre.",
+      "Abitare y lavorare ya alcanzan para decir dónde vive cada uno y qué hace."
+    ],
+    "pins": [
+      "famiglia",
+      "madre",
+      "padre",
+      "fratello",
+      "sorella",
+      "figlio",
+      "figlia",
+      "nonno",
+      "nonna",
+      "zio",
+      "zia",
+      "marito",
+      "moglie",
+      "bambino"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Comida y bebida",
+    "summary": "El bar, la mesa y cómo pedir sin trabarse.",
+    "body": [
+      "En el bar se pide con un nombre y per favore: un caffè, un'acqua, un gelato. Vorrei es más suave que voglio.",
+      "Pane, pasta, pizza, pesce, formaggio, frutta y verdura arman el menú básico. Buono cierra el comentario. Il conto, per favore pide la cuenta.",
+      "Mangiare y bere: mangio, bevo. En el ristorante, el cameriere espera el pedido después del saludo."
+    ],
+    "pins": [
+      "acqua",
+      "pane",
+      "pasta",
+      "pizza",
+      "vino",
+      "latte",
+      "formaggio",
+      "frutta",
+      "verdura",
+      "mangiare",
+      "bere",
+      "ristorante",
+      "conto",
+      "caffè",
+      "gelato"
+    ],
+    "dialogue": [
+      {
+        "zh": "Buonasera. Un tavolo per due?",
+        "py": "buona sera. un tavolo per due",
+        "es": "Buenas tardes. ¿Una mesa para dos?"
+      },
+      {
+        "zh": "Sì, grazie. Il menu, per favore.",
+        "py": "si, gratsie. il menu, per favore",
+        "es": "Sí, gracias. El menú, por favor."
+      },
+      {
+        "zh": "Per me gli spaghetti e un bicchiere di vino.",
+        "py": "per me li spagueti e un bikiere di vino",
+        "es": "Para mí los espaguetis y una copa de vino."
+      },
+      {
+        "zh": "E per me un'acqua e la pizza.",
+        "py": "e per me unakua e la pitsa",
+        "es": "Y para mí un agua y la pizza."
+      },
+      {
+        "zh": "Il conto, per favore.",
+        "py": "il konto, per favore",
+        "es": "La cuenta, por favor."
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "title": "La hora y los días",
+    "summary": "Hoy, ayer, mañana y la semana de lunedì a domenica.",
+    "body": [
+      "Oggi, domani e ieri ordenan el tiempo cercano. Mattina, sera y notte parten el día. Settimana es la semana.",
+      "Los días no se escriben con mayúscula: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica. El acento va al final en casi todos, menos sabato y domenica.",
+      "Di mattina bevo un caffè. Di sera leggo. Domenica sto in famiglia. Che ora è se responde con sono le… más el número."
+    ],
+    "pins": [
+      "oggi",
+      "domani",
+      "ieri",
+      "lunedì",
+      "martedì",
+      "mercoledì",
+      "giovedì",
+      "venerdì",
+      "sabato",
+      "domenica",
+      "mattina",
+      "sera",
+      "notte",
+      "settimana"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "En la ciudad",
+    "summary": "Calle, plaza, tren y cómo pedir una dirección.",
+    "body": [
+      "Via y piazza nombran el mapa. Stazione, autobus, treno y biglietto cubren el viaje corto. Dov'è la stazione es la pregunta modelo. Scusi la abre con respeto.",
+      "Sinistra y destra, qui y lì, vicino y lontano ubican. Andare: vado, vai, va, andiamo, andate, vanno. Vado a casa. Andiamo in piazza.",
+      "In se usa con ciudades y lugares cerrados en muchos casos: abito in via Roma, vado in stazione. A marca destino con varios verbos de movimiento hacia una persona o ciudad en la forma a Roma, a casa."
+    ],
+    "pins": [
+      "via",
+      "piazza",
+      "stazione",
+      "autobus",
+      "treno",
+      "biglietto",
+      "sinistra",
+      "destra",
+      "qui",
+      "lì",
+      "andare",
+      "vicino",
+      "lontano",
+      "dove",
+      "città"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Colores y tamaños",
+    "summary": "Adjetivos que van después del sustantivo y concuerdan.",
+    "body": [
+      "Rosso, verde, bianco, nero y blu describen. Grande y piccolo, bello, nuovo y vecchio, caldo y freddo también. El adjetivo casi siempre va después: un gatto nero, una città grande.",
+      "Concuerda en género y número: rosso, rossa, rossi, rosse. Blu no cambia en el singular habitual. Bello tiene formas cortas delante del sustantivo: bel, bello, bella.",
+      "Fa caldo y fa freddo hablan del clima. Ho caldo y ho freddo hablan de la persona. No es lo mismo."
+    ],
+    "pins": [
+      "rosso",
+      "verde",
+      "bianco",
+      "nero",
+      "blu",
+      "grande",
+      "piccolo",
+      "bello",
+      "nuovo",
+      "vecchio",
+      "caldo",
+      "freddo"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Verbos del día",
+    "summary": "Essere, avere, fare y los modales volere, potere y dovere.",
+    "body": [
+      "Avere: ho, hai, ha, abbiamo, avete, hanno. Ho fame, ho sete, ho fretta, ho ragione. No se dice «soy hambre».",
+      "Fare pregunta y responde la actividad: cosa fai? Volere, potere y dovere se conjugan y van con infinitivo: voglio un gelato, posso entrare, devo studiare.",
+      "Parlare, capire, leggere, scrivere, ascoltare y vedere son las acciones del curso. Non capisco y può ripetere, per favore salvan cualquier clase."
+    ],
+    "pins": [
+      "avere",
+      "fare",
+      "volere",
+      "potere",
+      "dovere",
+      "parlare",
+      "capire",
+      "leggere",
+      "scrivere",
+      "ascoltare",
+      "vedere",
+      "non",
+      "essere",
+      "andare"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "En el negocio",
+    "summary": "Precio, talle, descuento y cómo pagar.",
+    "body": [
+      "Quanto costa es la pregunta. Caro y economico dan la opinión. C'è uno sconto pregunta si hay descuento, con el verbo esserci: c'è, ci sono.",
+      "Taglia es el talle. Carta o contanti es la caja. Pagare: pago, paghi, paga. Compro il pane. Il negozio è chiuso los domingos en muchas ciudades.",
+      "Los números de la clase 4 vuelven acá con euro. Dieci euro, venti euro. El precio se dice costa, no «es»."
+    ],
+    "pins": [
+      "quanto",
+      "euro",
+      "negozio",
+      "comprare",
+      "pagare",
+      "carta",
+      "contanti",
+      "taglia",
+      "sconto",
+      "caro",
+      "economico",
+      "camicia",
+      "quindici"
+    ],
+    "dialogue": [
+      {
+        "zh": "Buongiorno. Quanto costa questa camicia?",
+        "py": "buon yorno. kuanto kosta kuesta chamisha",
+        "es": "Buen día. ¿Cuánto cuesta esta camisa?"
+      },
+      {
+        "zh": "Costa venti euro.",
+        "py": "kosta venti euro",
+        "es": "Cuesta veinte euros."
+      },
+      {
+        "zh": "È un po' cara. C'è uno sconto?",
+        "py": "e un po kara. che uno skonto",
+        "es": "Está un poco cara. ¿Hay un descuento?"
+      },
+      {
+        "zh": "Sì, quindici euro. Che taglia porta?",
+        "py": "si, kuindichi euro. ke talia porta",
+        "es": "Sí, quince euros. ¿Qué talle usa?"
+      },
+      {
+        "zh": "La media. Pago con la carta.",
+        "py": "la media. pago kon la karta",
+        "es": "El del medio. Pago con tarjeta."
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Clima y planes",
+    "summary": "Sol, lluvia y una salida con amigos.",
+    "body": [
+      "Che tempo fa pregunta el clima. C'è il sole, piove, c'è vento, fa caldo, fa freddo. Pioggia nombra la lluvia. Piove es el verbo.",
+      "Para proponer: andiamo al cinema, andiamo al parco. Insieme suma a la otra persona. Amico, amici. Stasera y domani cierran el plan.",
+      "Si llueve, se cambia el plan con però o quindi, que aparecen más adelante. Por ahora alcanza: oggi piove, resto a casa."
+    ],
+    "pins": [
+      "tempo",
+      "sole",
+      "pioggia",
+      "piove",
+      "vento",
+      "caldo",
+      "freddo",
+      "cinema",
+      "parco",
+      "amico",
+      "insieme",
+      "oggi",
+      "andare"
+    ],
+    "dialogue": [
+      {
+        "zh": "Che tempo fa oggi?",
+        "py": "ke tempo fa oyi",
+        "es": "¿Qué tiempo hace hoy?"
+      },
+      {
+        "zh": "C'è il sole. Andiamo al parco?",
+        "py": "che il sole. andiamo al parko",
+        "es": "Hay sol. ¿Vamos al parque?"
+      },
+      {
+        "zh": "Sì. Chiamo un amico.",
+        "py": "si. kiamo un amiko",
+        "es": "Sí. Llamo a un amigo."
+      },
+      {
+        "zh": "Perfetto. Ci vediamo lì.",
+        "py": "perfeto. chi vediamo li",
+        "es": "Perfecto. Nos vemos ahí."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "Piove significa…",
+        "options": [
+          "llueve",
+          "hace sol",
+          "hay viento",
+          "es de noche"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Andiamo al cinema es…",
+        "options": [
+          "vamos al cine",
+          "pago la cuenta",
+          "me llamo Luca",
+          "a la izquierda"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Insieme quiere decir…",
+        "options": [
+          "juntos",
+          "lejos",
+          "caro",
+          "ayer"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Che tempo fa pregunta…",
+        "options": [
+          "el clima",
+          "el precio",
+          "el nombre",
+          "la hora"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Amico es…",
+        "options": [
+          "amigo",
+          "lluvia",
+          "boleto",
+          "queso"
+        ],
+        "correct": 0
+      }
+    ]
+  }
+]
