@@ -6,6 +6,7 @@ require __DIR__ . '/includes/bootstrap.php';
 require __DIR__ . '/includes/helpers.php';
 require __DIR__ . '/includes/auth.php';
 require __DIR__ . '/includes/install.php';
+require __DIR__ . '/includes/certificate_pdf.php';
 require __DIR__ . '/includes/pages.php';
 
 start_session();
@@ -61,6 +62,12 @@ if ($path === 'cuenta' && $method === 'GET') {
 }
 if ($path === 'certificados' && $method === 'GET') {
     page_certificates();
+}
+if (preg_match('#^certificados/(a1|a2|b1|b2|c1|c2)$#', $path, $m) && $method === 'GET') {
+    page_certificate_level($m[1]);
+}
+if ($path === 'certificados/final' && $method === 'GET') {
+    page_certificate_final();
 }
 if ($path === 'cuenta' && $method === 'POST') {
     post_account();

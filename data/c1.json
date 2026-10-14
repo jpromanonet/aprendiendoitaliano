@@ -1,0 +1,300 @@
+[
+  {
+    "title": "Registro y matiz",
+    "summary": "Implícito, irónico, sutil y demasiado largo.",
+    "body": [
+      "La sfumatura es el matiz. Il registro dice si el texto es formal o no. Implicito se infiere. Esplicito se dice.",
+      "Il tono puede ser de ironia o sarcastico. La metafora no se lee al pie de la letra: letterale es otra cosa. Sottile casi no se ve. Prolisso sobra. Conciso alcanza."
+    ],
+    "pins": [
+      "sfumatura",
+      "registro",
+      "implicito",
+      "esplicito",
+      "tono",
+      "ironia",
+      "metafora",
+      "sottile",
+      "sarcastico",
+      "letterale",
+      "prolisso",
+      "conciso"
+    ],
+    "number": 1
+  },
+  {
+    "title": "El argumento",
+    "summary": "Premisa, hipótesis, contradicción y tesis.",
+    "body": [
+      "Il presupposto se da por sentado. Si es falso, cae todo. La premessa se enuncia. L'ipotesi se pone a prueba. La tesi se sostiene.",
+      "Coerenza mantiene el hilo. La contraddizione lo corta. L'ambiguità lo nubla. La conclusione cierra, y si llega antes de tiempo se nota."
+    ],
+    "pins": [
+      "presupposto",
+      "coerenza",
+      "contraddizione",
+      "ambiguità",
+      "premessa",
+      "conclusione",
+      "ipotesi",
+      "tesi"
+    ],
+    "number": 2
+  },
+  {
+    "title": "Método",
+    "summary": "Criterio, contexto y la muestra.",
+    "body": [
+      "La verifica comprueba. Il criterio justifica la elección. La metodologia se puede repetir.",
+      "Il contesto cambia el sentido. La prospettiva es desde dónde se mira. Il campione es la muestra, no el ganador."
+    ],
+    "pins": [
+      "verifica",
+      "criterio",
+      "metodologia",
+      "contesto",
+      "prospettiva",
+      "campione"
+    ],
+    "number": 3
+  },
+  {
+    "title": "Los datos",
+    "summary": "Porcentaje, variable y encuesta.",
+    "body": [
+      "La statistica no habla sola. La percentuale sube o baja. La variabile es lo que se mueve.",
+      "La correlazione no es causa. Il sondaggio pregunta, y la fecha importa."
+    ],
+    "pins": [
+      "statistica",
+      "percentuale",
+      "variabile",
+      "correlazione",
+      "sondaggio"
+    ],
+    "number": 4
+  },
+  {
+    "title": "Qué está pasando",
+    "summary": "Tendencia, fenómeno, riesgo y juicio.",
+    "body": [
+      "La tendenza se observa en el tiempo. Il fenomeno se describe. La conseguenza se acepta o se discute.",
+      "Recente ubica el hecho. Il rischio se nombra. Il giudizio se puede suspender."
+    ],
+    "pins": [
+      "tendenza",
+      "fenomeno",
+      "conseguenza",
+      "recente",
+      "rischio",
+      "giudizio"
+    ],
+    "number": 5
+  },
+  {
+    "title": "Verbos del debate",
+    "summary": "Argumentar, refutar, precisar y atenuar.",
+    "body": [
+      "Argomentare construye. Confutare desmonta. Sostenere mantiene una posición, incluso la contraria.",
+      "Precisare achica el blanco. Attenuare baja el juicio. Enfatizzare sube el riesgo."
+    ],
+    "pins": [
+      "argomentare",
+      "confutare",
+      "sostenere",
+      "precisare",
+      "attenuare",
+      "enfatizzare"
+    ],
+    "number": 6
+  },
+  {
+    "title": "El texto",
+    "summary": "Borrador, ensayo, cita y párrafo.",
+    "body": [
+      "Formalizzare deja por escrito. Adeguare el tono al lector. Approfondire es ir más adentro, no alargar.",
+      "La bozza se manda. La revisione la corrige. La sintesi achica. Il saggio argumenta. Il paragrafo se lee. La citazione se atribuye."
+    ],
+    "pins": [
+      "formalizzare",
+      "adeguare",
+      "approfondire",
+      "bozza",
+      "revisione",
+      "sintesi",
+      "saggio",
+      "paragrafo",
+      "citazione"
+    ],
+    "number": 7
+  },
+  {
+    "title": "El derecho",
+    "summary": "Norma, recurso, sentencia y mediación.",
+    "body": [
+      "La normativa manda. El ricorso se presenta. La sentenza cierra. Il tribunale decide. L'avvocato representa.",
+      "La mediazione busca una salida. Il negoziato sigue mientras haya margen."
+    ],
+    "pins": [
+      "normativa",
+      "ricorso",
+      "sentenza",
+      "tribunale",
+      "avvocato",
+      "mediazione",
+      "negoziato"
+    ],
+    "number": 8
+  },
+  {
+    "title": "Tecnología",
+    "summary": "Algoritmo, plataforma, privacidad y patente.",
+    "body": [
+      "L'algoritmo decide sin explicar, y a veces se equivoca. La piattaforma es el lugar. La privacy es el límite.",
+      "Il brevetto protege. L'innovazione cuesta y se vende."
+    ],
+    "pins": [
+      "algoritmo",
+      "piattaforma",
+      "privacy",
+      "brevetto",
+      "innovazione"
+    ],
+    "number": 9
+  },
+  {
+    "title": "Ética",
+    "summary": "Dilema, principio y responsabilidad.",
+    "body": [
+      "L'etica pregunta qué corresponde. Il dilemma no tiene una salida limpia. Il principio no se negocia fácil.",
+      "La responsabilità tiene un sujeto. Empatia y resilienza no reemplazan el argumento. La consapevolezza es darse cuenta."
+    ],
+    "pins": [
+      "etica",
+      "dilemma",
+      "principio",
+      "responsabilità",
+      "empatia",
+      "resilienza",
+      "consapevolezza"
+    ],
+    "number": 10
+  },
+  {
+    "title": "Claridad",
+    "summary": "Eficaz, oscuro, índice y bibliografía.",
+    "body": [
+      "Efficace logra el efecto. Oscuro obliga a releer. Trasparente se puede seguir.",
+      "La bibliografia y la nota sostienen. Il capitolo ordena. L'indice orienta."
+    ],
+    "pins": [
+      "efficace",
+      "oscuro",
+      "trasparente",
+      "bibliografia",
+      "nota",
+      "capitolo",
+      "indice"
+    ],
+    "number": 11
+  },
+  {
+    "title": "El debate",
+    "summary": "Consenso, disenso y la réplica.",
+    "body": [
+      "Il dibattito se modera. Il moderatore da la palabra. L'intervento es breve. La replica responde.",
+      "Il consenso se construye. Il dissenso se expresa. Diplomazia, trattato y sanzione son el mismo gesto en grande: hablar, firmar, o cortar."
+    ],
+    "pins": [
+      "dibattito",
+      "moderatore",
+      "intervento",
+      "replica",
+      "consenso",
+      "dissenso",
+      "diplomazia",
+      "trattato",
+      "sanzione"
+    ],
+    "dialogue": [
+      {
+        "zh": "La tesi non regge: c'è una contraddizione.",
+        "py": "la tezi non reye: che una kontraditsione",
+        "es": "La tesis no se sostiene: hay una contradicción."
+      },
+      {
+        "zh": "Preciso. Era un'ipotesi, non una conclusione.",
+        "py": "prechiso. era unipotesi, non una konklusione",
+        "es": "Preciso. Era una hipótesis, no una conclusión."
+      },
+      {
+        "zh": "Allora manca la verifica.",
+        "py": "alora manka la verifika",
+        "es": "Entonces falta la verificación."
+      },
+      {
+        "zh": "D'accordo. La facciamo prima del dibattito.",
+        "py": "dakordo. la fachamo prima del dibattito",
+        "es": "De acuerdo. La hacemos antes del debate."
+      },
+      {
+        "zh": "Il moderatore dà la parola.",
+        "py": "il moderatore da la parola",
+        "es": "El moderador da la palabra."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "Confutare significa…",
+        "options": [
+          "refutar",
+          "citar",
+          "firmar",
+          "ahorrar"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "La bozza es…",
+        "options": [
+          "el borrador",
+          "la sentencia",
+          "la encuesta",
+          "el índice"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Implicito quiere decir…",
+        "options": [
+          "implícito",
+          "reciente",
+          "tajante",
+          "literal"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Il ricorso se presenta ante…",
+        "options": [
+          "un tribunal",
+          "una receta",
+          "un andén",
+          "un mercado"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "La sintesi es…",
+        "options": [
+          "una síntesis",
+          "una huelga",
+          "una bufanda",
+          "un alquiler"
+        ],
+        "correct": 0
+      }
+    ],
+    "number": 12
+  }
+]

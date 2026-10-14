@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Unir ideas",
+    "summary": "Pero, así que, mientras y ojalá.",
+    "body": [
+      "Però frena. Quindi concluye. Mentre superpone. Appena marca el instante.",
+      "Allora retoma. Invece contrasta. Poi ordena. Intanto, anzi, oppure, magari y ecco afinan la frase."
+    ],
+    "pins": [
+      "però",
+      "quindi",
+      "mentre",
+      "appena",
+      "allora",
+      "invece",
+      "poi",
+      "intanto",
+      "anzi",
+      "oppure",
+      "magari",
+      "ecco"
+    ],
+    "number": 1
+  },
+  {
+    "title": "El viaje",
+    "summary": "Hostel, guía, aduana y el seguro.",
+    "body": [
+      "Il viaggio y l'esperienza se cuentan al volver. L'ospite duerme en casa. La prenotazione confirma.",
+      "Ostello, guida y souvenir son el viaje corto. Cambio, frontiera, imbarco, dogana y assicurazione son el cruce."
+    ],
+    "pins": [
+      "viaggio",
+      "esperienza",
+      "ospite",
+      "prenotazione",
+      "ostello",
+      "guida",
+      "souvenir",
+      "cambio",
+      "frontiera",
+      "imbarco",
+      "dogana",
+      "assicurazione"
+    ],
+    "number": 2
+  },
+  {
+    "title": "Cuando algo falla",
+    "summary": "Daño, culpa, queja y reembolso.",
+    "body": [
+      "Il problema pide una soluzione. Decidere no se posterga si es urgente.",
+      "Guasto y danno nombran el desperfecto. La colpa no siempre es tuya. La lamentela y el rimborso se piden con pazienza."
+    ],
+    "pins": [
+      "problema",
+      "soluzione",
+      "decidere",
+      "guasto",
+      "danno",
+      "colpa",
+      "lamentela",
+      "rimborso",
+      "urgente",
+      "pazienza"
+    ],
+    "number": 3
+  },
+  {
+    "title": "El proyecto",
+    "summary": "Reunión, plazo, rol y resultado.",
+    "body": [
+      "Riunione, progetto y scadenza ordenan la semana laboral. L'aumento y l'obiettivo miran más arriba.",
+      "La promozione cambia el ruolo. Carico y priorità dicen qué va primero. Delegare alivia. Il risultato entra en el bilancio."
+    ],
+    "pins": [
+      "riunione",
+      "progetto",
+      "scadenza",
+      "aumento",
+      "obiettivo",
+      "promozione",
+      "ruolo",
+      "carico",
+      "priorità",
+      "delegare",
+      "risultato",
+      "bilancio"
+    ],
+    "number": 4
+  },
+  {
+    "title": "En la cocina",
+    "summary": "Receta, alergia y los verbos del fuego.",
+    "body": [
+      "Ricetta, ingrediente y allergia ya evitan un mal plato.",
+      "Forno, pentola y padella son los útiles. Bollire, friggere y mescolare son el gesto. Porzione y spezia cierran."
+    ],
+    "pins": [
+      "ricetta",
+      "ingrediente",
+      "allergia",
+      "forno",
+      "pentola",
+      "padella",
+      "bollire",
+      "friggere",
+      "mescolare",
+      "porzione",
+      "spezia"
+    ],
+    "number": 5
+  },
+  {
+    "title": "Salud",
+    "summary": "Fiebre, turno, análisis y la receta.",
+    "body": [
+      "Salute se brinda y se cuida. Febbre y tosse son el aviso. El sintomo se describe en el turno: l'appuntamento.",
+      "Si hace falta, llaman l'ambulanza o hay un ricovero. Las analisi dan un referto. La prescrizione es la receta que te llevás."
+    ],
+    "pins": [
+      "salute",
+      "febbre",
+      "tosse",
+      "appuntamento",
+      "sintomo",
+      "ricovero",
+      "ambulanza",
+      "analisi",
+      "referto",
+      "prescrizione"
+    ],
+    "number": 6
+  },
+  {
+    "title": "El ambiente",
+    "summary": "Basura, plástico y la sequía.",
+    "body": [
+      "Ambiente, inquinamento, riciclare y risparmiare arman la base.",
+      "Rifiuti, plastica, vetro y raccolta son el día a día. Spreco y energia se miden. Siccità y alluvione son el clima cuando se pasa de largo."
+    ],
+    "pins": [
+      "ambiente",
+      "inquinamento",
+      "riciclare",
+      "risparmiare",
+      "rifiuti",
+      "plastica",
+      "vetro",
+      "raccolta",
+      "spreco",
+      "energia",
+      "siccità",
+      "alluvione"
+    ],
+    "number": 7
+  },
+  {
+    "title": "Verbos de decisión",
+    "summary": "Esperar, parecer, lograr, olvidar.",
+    "body": [
+      "Sperare desea. Sembrare opina. Diventare cambia de estado. Riuscire logra. Dimenticare pierde y ricordare recupera.",
+      "Promettere ata. Scegliere corta. Evitare esquiva. Consigliare recomienda. Permettere abre y vietare cierra."
+    ],
+    "pins": [
+      "sperare",
+      "sembrare",
+      "diventare",
+      "riuscire",
+      "dimenticare",
+      "ricordare",
+      "promettere",
+      "scegliere",
+      "evitare",
+      "consigliare",
+      "permettere",
+      "vietare"
+    ],
+    "number": 8
+  },
+  {
+    "title": "La opinión",
+    "summary": "De acuerdo, en contra y la duda.",
+    "body": [
+      "Opinione y cultura dan el marco. Sono d'accordo o sono contrario cierran la posición.",
+      "Dubbio y certezza miden la seguridad. L'impressione es más blanda. Ragione y punto ordenan el argumento."
+    ],
+    "pins": [
+      "opinione",
+      "cultura",
+      "accordo",
+      "contrario",
+      "dubbio",
+      "certezza",
+      "impressione",
+      "ragione",
+      "punto"
+    ],
+    "number": 9
+  },
+  {
+    "title": "Papeles",
+    "summary": "Alquiler, multa y formulario.",
+    "body": [
+      "El mutuo, el inquilino y el proprietario arman el contrato de vivienda. Il deposito y le spese se pagan aparte.",
+      "Avviso, multa, modulo, firma y documento son el mostrador."
+    ],
+    "pins": [
+      "mutuo",
+      "inquilino",
+      "proprietario",
+      "deposito",
+      "spese",
+      "avviso",
+      "multa",
+      "modulo",
+      "firma",
+      "documento"
+    ],
+    "number": 10
+  },
+  {
+    "title": "Contar lo que pasó",
+    "summary": "De repente, al final, por suerte.",
+    "body": [
+      "Improvvisamente corta la calma. Nel frattempo pasa otra cosa. All'inizio y alla fine enmarcan.",
+      "Finalmente alivia. Purtroppo y per fortuna evalúan. Raccontare pide estos marcadores para que el relato no sea una lista."
+    ],
+    "pins": [
+      "improvvisamente",
+      "frattempo",
+      "fine",
+      "inizio",
+      "finalmente",
+      "purtroppo",
+      "fortuna",
+      "raccontare"
+    ],
+    "number": 11
+  },
+  {
+    "title": "Un plan que cambia",
+    "summary": "Decidir, avisar y volver a armar el día.",
+    "body": [
+      "Juntá un conector, un problema y un verbo de decisión. Así se cuenta un cambio de planes sin quedarse en el A2.",
+      "Però y quindi alcanzan si el resto de la frase ya está claro."
+    ],
+    "pins": [
+      "però",
+      "quindi",
+      "problema",
+      "decidere"
+    ],
+    "dialogue": [
+      {
+        "zh": "Volevo venire, però ho un problema.",
+        "py": "volevo venire, peró o un problema",
+        "es": "Quería ir, pero tengo un problema."
+      },
+      {
+        "zh": "Che succede?",
+        "py": "ke suchede",
+        "es": "¿Qué pasa?"
+      },
+      {
+        "zh": "Il treno è in ritardo. Quindi arrivo tardi.",
+        "py": "il treno e in ritardo. kuindi arrivo tardi",
+        "es": "El tren está demorado. Así que llego tarde."
+      },
+      {
+        "zh": "Non è un problema. Ti aspetto.",
+        "py": "non e un problema. ti aspeito",
+        "es": "No es un problema. Te espero."
+      },
+      {
+        "zh": "Grazie. Appena arrivo ti chiamo.",
+        "py": "gratsie. apena arrivo ti kiamo",
+        "es": "Gracias. Apenas llego te llamo."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "Quindi significa…",
+        "options": [
+          "así que",
+          "aunque",
+          "nunca",
+          "arriba"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Il rimborso es…",
+        "options": [
+          "el reembolso",
+          "la fiebre",
+          "el balcón",
+          "el verso"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Sono d'accordo quiere decir…",
+        "options": [
+          "estoy de acuerdo",
+          "estoy ocupado",
+          "me duele",
+          "falta nafta"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "La dogana es…",
+        "options": [
+          "la aduana",
+          "la sartén",
+          "la bufanda",
+          "el despertador"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Purtroppo se usa para…",
+        "options": [
+          "una mala noticia",
+          "un brindis",
+          "pedir la cuenta",
+          "decir la hora"
+        ],
+        "correct": 0
+      }
+    ],
+    "number": 12
+  }
+]

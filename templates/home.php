@@ -81,7 +81,7 @@
               <span class="level-card-kicker"><?= e($level['title']) ?></span>
               <strong><?= (int) ($lessonCounts[(int) $level['id']] ?? 0) ?> clases</strong>
               <p><?= e($level['description']) ?></p>
-              <em><?= number_format((int) $level['words_cumulative'], 0, ',', '.') ?> palabras acumuladas</em>
+              <em><?= number_format((int) $level['words_new'], 0, ',', '.') ?> palabras nuevas</em>
               <span class="class-cta">Abrir nivel →</span>
             </a>
           <?php endforeach; ?>

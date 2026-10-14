@@ -69,6 +69,12 @@ function current_user(): ?array
     $loaded = true;
     $id = $_SESSION['user_id'] ?? null;
     if (!$id) {
+        $id = user_id_from_remember_cookie();
+        if ($id) {
+            $_SESSION['user_id'] = $id;
+        }
+    }
+    if (!$id) {
         return $user = null;
     }
     $stmt = db()->prepare('SELECT * FROM users WHERE id = ?');
@@ -76,6 +82,10 @@ function current_user(): ?array
     $user = $stmt->fetch() ?: null;
     if (!$user) {
         unset($_SESSION['user_id']);
+        return $user;
+    }
+    if (empty($_COOKIE['ai_remember'])) {
+        remember_login((int) $user['id']);
     }
     return $user;
 }

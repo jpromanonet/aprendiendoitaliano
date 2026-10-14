@@ -21,12 +21,14 @@
           $issued = $certs[(int) $level['id']] ?? null;
           $stat = $levelStats[(int) $level['id']] ?? ['done' => 0, 'total' => 0];
           ?>
-          <article class="cert-card<?= $issued ? ' earned' : '' ?>">
+          <?php $cardTag = $issued ? 'a' : 'article'; ?>
+          <<?= $cardTag ?> class="cert-card<?= $issued ? ' earned' : '' ?>"<?= $issued ? ' href="' . e(url('certificados/' . $level['slug'])) . '"' : '' ?>>
             <span class="cert-kicker"><?= $issued ? 'Emitido' : 'Certificado' ?></span>
             <strong><?= e($level['title']) ?></strong>
             <?php if ($issued): ?>
               <em><?= e(fecha_es((string) $issued['issued_at'])) ?></em>
               <span class="cert-code"><?= e($issued['code']) ?></span>
+              <span class="cert-open">Abrir PDF</span>
             <?php elseif ((int) $stat['total'] > 0 && (int) $stat['done'] >= (int) $stat['total']): ?>
               <em>Completaste este nivel. El certificado se habilita en la próxima etapa.</em>
             <?php elseif ((int) $stat['total'] > 0): ?>
@@ -34,20 +36,22 @@
             <?php else: ?>
               <em>Cuando se publique este nivel</em>
             <?php endif; ?>
-          </article>
+          </<?= $cardTag ?>>
         <?php endforeach; ?>
-        <article class="cert-card cert-final<?= $finalCert ? ' earned' : '' ?>">
+        <?php $finalTag = $finalCert ? 'a' : 'article'; ?>
+        <<?= $finalTag ?> class="cert-card cert-final<?= $finalCert ? ' earned' : '' ?>"<?= $finalCert ? ' href="' . e(url('certificados/final')) . '"' : '' ?>>
           <span class="cert-kicker"><?= $finalCert ? 'Emitido' : 'Certificado final' ?></span>
           <strong>Curso completo</strong>
           <?php if ($finalCert): ?>
             <em><?= e(fecha_es((string) $finalCert['issued_at'])) ?></em>
             <span class="cert-code"><?= e($finalCert['code']) ?></span>
+            <span class="cert-open">Abrir PDF</span>
           <?php elseif ($earned === count($navLevels) && $navLevels): ?>
             <em>Reuniste los certificados de todos los niveles.</em>
           <?php else: ?>
             <em>Se emite al tener los certificados de todos los niveles. <?= $earned ?> de <?= count($navLevels) ?>.</em>
           <?php endif; ?>
-        </article>
+        </<?= $finalTag ?>>
       </div>
     </section>
   <?php endif; ?>

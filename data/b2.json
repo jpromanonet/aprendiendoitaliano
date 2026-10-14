@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Aunque y con tal de que",
+    "summary": "Concesión, condición y el matiz de «más bien».",
+    "body": [
+      "Sebbene y benché piden subjuntivo: sebbene piova, esco. Nonostante y ciononostante no lo exigen. Tuttavia corrige sin negar.",
+      "Purché pone la condición: vengo, purché sia breve. Qualora es el si formal. Piuttosto baja el tono: no es caro, es più tosto caro."
+    ],
+    "pins": [
+      "sebbene",
+      "nonostante",
+      "tuttavia",
+      "piuttosto",
+      "benché",
+      "purché",
+      "qualora",
+      "ciononostante"
+    ],
+    "number": 1
+  },
+  {
+    "title": "Probablemente, de hecho",
+    "summary": "Certeza, añadido y el por lo tanto.",
+    "body": [
+      "Probabilmente deja la puerta abierta. Sicuramente la cierra. Addirittura sube la apuesta.",
+      "Infatti y difatti confirman. Inoltre suma. Pertanto concluye. Ovvero reformula. Perlomeno salva un mínimo."
+    ],
+    "pins": [
+      "addirittura",
+      "probabilmente",
+      "sicuramente",
+      "infatti",
+      "inoltre",
+      "pertanto",
+      "ovvero",
+      "difatti",
+      "perlomeno"
+    ],
+    "number": 2
+  },
+  {
+    "title": "Leer el diario",
+    "summary": "Fuente, título, entrevista y redacción.",
+    "body": [
+      "L'argomento es el tema. La fonte se cita. L'articolo sale al giornale con un titolo.",
+      "L'intervista da la voz. La redazione es quien cierra el texto."
+    ],
+    "pins": [
+      "argomento",
+      "fonte",
+      "articolo",
+      "giornale",
+      "titolo",
+      "intervista",
+      "redazione"
+    ],
+    "number": 3
+  },
+  {
+    "title": "La noticia",
+    "summary": "Crónica, investigación y el título inflado.",
+    "body": [
+      "La cronaca cuenta el hecho. L'editoriale opina. L'inchiesta investiga y el testimone declara.",
+      "La notizia informa. La bufala miente. El titolone grita más de lo que el texto sostiene."
+    ],
+    "pins": [
+      "cronaca",
+      "editoriale",
+      "inchiesta",
+      "testimone",
+      "notizia",
+      "bufala",
+      "titolone"
+    ],
+    "number": 4
+  },
+  {
+    "title": "La economía",
+    "summary": "Inflación, desempleo, PBI y el sueldo.",
+    "body": [
+      "L'economia se lee en la inflazione y la disoccupazione. Il pil resume el país.",
+      "Il salario es el sueldo en la nota. Il precariato es el trabajo inestable. Le tasse son los impuestos."
+    ],
+    "pins": [
+      "economia",
+      "inflazione",
+      "disoccupazione",
+      "pil",
+      "salario",
+      "precariato",
+      "tasse"
+    ],
+    "number": 5
+  },
+  {
+    "title": "El contrato",
+    "summary": "Cláusula, negociación y el currículum.",
+    "body": [
+      "Il contratto se firma. La clausola se lee antes. La trattativa es la mesa. La strategia es el plan.",
+      "La competenza se muestra en el colloquio. El curriculum se adjunta. Affidabile es el adjetivo que buscás que te pongan."
+    ],
+    "pins": [
+      "contratto",
+      "clausola",
+      "trattativa",
+      "strategia",
+      "competenza",
+      "colloquio",
+      "curriculum",
+      "affidabile"
+    ],
+    "number": 6
+  },
+  {
+    "title": "El conflicto laboral",
+    "summary": "Sindicato, huelga, despido y la firma.",
+    "body": [
+      "El feedback se pide. Firmare y allegare cierran el trámite. Rallentare describe el freno.",
+      "L'assunzione entra. Il licenziamento sale. Il sindacato convoca lo sciopero."
+    ],
+    "pins": [
+      "feedback",
+      "firmare",
+      "allegare",
+      "rallentare",
+      "assunzione",
+      "licenziamento",
+      "sindacato",
+      "sciopero"
+    ],
+    "number": 7
+  },
+  {
+    "title": "La política",
+    "summary": "Voto, parlamento, decreto y mayoría.",
+    "body": [
+      "La società cambia cuando il cittadino vota. Il voto es secreto. L'elezione tiene fecha.",
+      "Parlamento y governo deciden. L'opposizione discute. Legge y decreto no son lo mismo. Il referendum consulta. Maggioranza y minoranza cuentan los votos."
+    ],
+    "pins": [
+      "società",
+      "cittadino",
+      "voto",
+      "elezione",
+      "parlamento",
+      "governo",
+      "opposizione",
+      "legge",
+      "decreto",
+      "referendum",
+      "maggioranza",
+      "minoranza"
+    ],
+    "number": 8
+  },
+  {
+    "title": "El mail formal",
+    "summary": "Condicional, cortesía y el adjunto.",
+    "body": [
+      "El condizionale pide: vorrei. El congiuntivo entra en las subordinadas formales. La cortesia se nota en el tono, no en los adjetivos vacíos.",
+      "La richiesta tiene un oggetto. El allegato va nombrado. Distinti saluti cierra. Spettabile abre a una empresa. Il sollecito es el segundo mail, cuando no contestaron. Il diritto nombra lo que corresponde."
+    ],
+    "pins": [
+      "condizionale",
+      "congiuntivo",
+      "cortesia",
+      "richiesta",
+      "allegato",
+      "oggetto",
+      "distinti",
+      "spettabile",
+      "sollecito",
+      "diritto"
+    ],
+    "number": 9
+  },
+  {
+    "title": "Cultura",
+    "summary": "Muestra, novela, escenario y reseña.",
+    "body": [
+      "La mostra se visita. Il romanzo se lee. L'autore firma. Il pubblico aplaude o se va.",
+      "La recensione juzga. Palcoscenico, copione, trama y personaggio arman la obra."
+    ],
+    "pins": [
+      "mostra",
+      "romanzo",
+      "autore",
+      "pubblico",
+      "recensione",
+      "palcoscenico",
+      "copione",
+      "trama",
+      "personaggio"
+    ],
+    "number": 10
+  },
+  {
+    "title": "La sociedad",
+    "summary": "Brecha, salud, vivienda y prejuicio.",
+    "body": [
+      "Il divario y la disuguaglianza miden la distancia. Welfare, sanità, istruzione y pensioni son la red.",
+      "L'alloggio es la vivienda. L'integrazione se discute. Pregiudizio y stereotipo son el atajo que el texto serio evita."
+    ],
+    "pins": [
+      "divario",
+      "disuguaglianza",
+      "welfare",
+      "sanità",
+      "istruzione",
+      "pensioni",
+      "alloggio",
+      "integrazione",
+      "pregiudizio",
+      "stereotipo"
+    ],
+    "number": 11
+  },
+  {
+    "title": "La objeción",
+    "summary": "Ventaja, límite y un acuerdo que no es rendición.",
+    "body": [
+      "La sfida abre. L'opportunità tienta. Il limite frena. Vantaggio y svantaggio se ponen en la misma frase.",
+      "L'equilibrio se busca. Il compromesso no es derrota. La proposta se escucha. L'obiezione se responde."
+    ],
+    "pins": [
+      "sfida",
+      "opportunità",
+      "limite",
+      "vantaggio",
+      "svantaggio",
+      "equilibrio",
+      "compromesso",
+      "proposta",
+      "obiezione"
+    ],
+    "dialogue": [
+      {
+        "zh": "La proposta è interessante, tuttavia ho un'obiezione.",
+        "py": "la proposta e interesante, tuttavia o unobiezione",
+        "es": "La propuesta es interesante, sin embargo tengo una objeción."
+      },
+      {
+        "zh": "Quale?",
+        "py": "kuale",
+        "es": "¿Cuál?"
+      },
+      {
+        "zh": "Il vantaggio è chiaro, ma c'è un limite di tempo.",
+        "py": "il vantayo e kiaro, ma che un limite di tempo",
+        "es": "La ventaja es clara, pero hay un límite de tiempo."
+      },
+      {
+        "zh": "Cerchiamo un compromesso.",
+        "py": "cherkiamo un kompromeso",
+        "es": "Busquemos un acuerdo."
+      },
+      {
+        "zh": "D'accordo, purché sia scritto.",
+        "py": "dakordo, purke sia skrito",
+        "es": "De acuerdo, con tal de que quede por escrito."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "Tuttavia significa…",
+        "options": [
+          "sin embargo",
+          "por favor",
+          "nunca",
+          "arriba"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Lo sciopero es…",
+        "options": [
+          "la huelga",
+          "el título",
+          "el escenario",
+          "el impuesto"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Purché introduce…",
+        "options": [
+          "una condición",
+          "un saludo",
+          "una hora",
+          "un color"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Il titolone es…",
+        "options": [
+          "un título inflado",
+          "un sindicato",
+          "un contrato",
+          "un verso"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Allegare quiere decir…",
+        "options": [
+          "adjuntar",
+          "votar",
+          "ahorrar",
+          "toser"
+        ],
+        "correct": 0
+      }
+    ],
+    "number": 12
+  }
+]

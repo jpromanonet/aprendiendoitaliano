@@ -51,7 +51,7 @@ function page_level(int $levelId): void
         );
         $rows->execute([(int) $user['id'], $levelId]);
         foreach ($rows as $row) {
-            $progress[(int) $row['lesson_id']] = (int) $row['completed'] === 1;
+            $progress[(int) $row['lesson_id']] = (int) $row['completed'] === 1 ? 'done' : 'started';
         }
     }
     render('level', [
@@ -142,13 +142,7 @@ function post_class(int $levelId, string $slug): void
     }
     $action = (string) ($_POST['action'] ?? '');
     if ($action === 'complete') {
-        $save = db()->prepare(
-            'INSERT INTO lesson_progress (user_id, lesson_id, completed, percent, last_seen_at, completed_at)
-             VALUES (?, ?, 1, 100, NOW(), NOW())
-             ON DUPLICATE KEY UPDATE completed = 1, percent = 100, last_seen_at = NOW(), completed_at = COALESCE(completed_at, NOW())'
-        );
-        $save->execute([(int) $user['id'], (int) $lesson['id']]);
-        maybe_certificate((int) $user['id'], $levelId);
+        mark_lesson_complete((int) $user['id'], (int) $lesson['id'], $levelId);
         flash('Clase marcada como hecha.');
     } elseif ($action === 'quiz') {
         grade_quiz((int) $user['id'], $lesson);
@@ -208,9 +202,23 @@ function grade_quiz(int $userId, array $lesson): void
         $passed ? 1 : 0,
         json_encode($stored, JSON_UNESCAPED_UNICODE),
     ]);
+    if ($passed) {
+        mark_lesson_complete($userId, (int) $lesson['id'], (int) $lesson['level_id']);
+    }
     flash($passed
-        ? 'Aprobaste con ' . $score . '%. '
+        ? 'Aprobaste con ' . $score . '%. La clase quedó hecha.'
         : 'Sacaste ' . $score . '%. Para aprobar hacen falta 70%.');
+}
+
+function mark_lesson_complete(int $userId, int $lessonId, int $levelId): void
+{
+    $save = db()->prepare(
+        'INSERT INTO lesson_progress (user_id, lesson_id, completed, percent, last_seen_at, completed_at)
+         VALUES (?, ?, 1, 100, NOW(), NOW())
+         ON DUPLICATE KEY UPDATE completed = 1, percent = 100, last_seen_at = NOW(), completed_at = COALESCE(completed_at, NOW())'
+    );
+    $save->execute([$userId, $lessonId]);
+    maybe_certificate($userId, $levelId);
 }
 
 function maybe_certificate(int $userId, int $levelId): void
@@ -429,6 +437,62 @@ function page_certificates(): void
     ]);
 }
 
+function page_certificate_level(string $slug): void
+{
+    $user = current_user();
+    if (!$user) {
+        redirect('cuenta');
+    }
+    $levelId = level_id_by_slug($slug);
+    if (!$levelId) {
+        redirect('certificados');
+    }
+    maybe_certificate((int) $user['id'], $levelId);
+    $stmt = db()->prepare('SELECT c.*, l.title FROM certificates c JOIN levels l ON l.id = c.level_id WHERE c.user_id = ? AND c.level_id = ?');
+    $stmt->execute([(int) $user['id'], $levelId]);
+    $cert = $stmt->fetch();
+    if (!$cert) {
+        redirect('certificados');
+    }
+    $pdf = certificate_pdf([
+        'kicker' => 'APRENDIENDO ITALIANO',
+        'title' => 'Certificado',
+        'subtitle' => 'Nivel ' . $cert['title'],
+        'lead' => 'Se deja constancia de que',
+        'name' => (string) $user['display_name'],
+        'body' => 'completó todas las clases del nivel ' . $cert['title'] . ' en este curso.',
+        'code' => (string) $cert['code'],
+        'date' => fecha_es((string) $cert['issued_at']),
+    ]);
+    send_certificate_pdf('Certificado-' . $cert['title'] . '.pdf', $pdf);
+}
+
+function page_certificate_final(): void
+{
+    $user = current_user();
+    if (!$user) {
+        redirect('cuenta');
+    }
+    maybe_final_certificate((int) $user['id']);
+    $stmt = db()->prepare('SELECT * FROM course_certificates WHERE user_id = ?');
+    $stmt->execute([(int) $user['id']]);
+    $cert = $stmt->fetch();
+    if (!$cert) {
+        redirect('certificados');
+    }
+    $pdf = certificate_pdf([
+        'kicker' => 'APRENDIENDO ITALIANO',
+        'title' => 'Certificado final',
+        'subtitle' => 'Curso completo',
+        'lead' => 'Se deja constancia de que',
+        'name' => (string) $user['display_name'],
+        'body' => 'completó los seis niveles, de A1 a C2, en este curso.',
+        'code' => (string) $cert['code'],
+        'date' => fecha_es((string) $cert['issued_at']),
+    ]);
+    send_certificate_pdf('Certificado-curso.pdf', $pdf);
+}
+
 function page_account(): void
 {
     $user = current_user();
@@ -503,6 +567,8 @@ function post_account(): void
     $action = (string) ($_POST['action'] ?? '');
     if ($action === 'logout') {
         csrf_check();
+        $user = current_user();
+        forget_login($user ? (int) $user['id'] : null);
         $_SESSION = [];
         session_destroy();
         start_session();
@@ -555,15 +621,18 @@ function post_account(): void
     }
     if ($action === 'avatar') {
         $file = $_FILES['avatar'] ?? null;
-        if (!$file || ($file['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK) {
-            flash('No se pudo leer la imagen.');
+        $error = (int) ($file['error'] ?? UPLOAD_ERR_NO_FILE);
+        if (!$file || $error !== UPLOAD_ERR_OK) {
+            flash($error === UPLOAD_ERR_INI_SIZE || $error === UPLOAD_ERR_FORM_SIZE
+                ? 'La foto pesa demasiado. Elegí una más chica.'
+                : 'No se pudo leer la imagen.');
             redirect('cuenta');
         }
         $info = @getimagesize((string) $file['tmp_name']);
         $mime = $info['mime'] ?? '';
         $ext = ['image/jpeg' => 'jpg', 'image/png' => 'png', 'image/webp' => 'webp'][$mime] ?? null;
-        if (!$ext || (int) $file['size'] > 2 * 1024 * 1024) {
-            flash('La foto tiene que ser JPG, PNG o WebP de hasta 2 MB.');
+        if (!$ext || (int) $file['size'] > 8 * 1024 * 1024) {
+            flash('La foto tiene que ser JPG, PNG o WebP.');
             redirect('cuenta');
         }
         $dir = app_root() . '/storage/avatars';

@@ -65,8 +65,10 @@ function start_session(): void
         return;
     }
     $path = config()['base_path'] ?: '/';
+    $lifetime = 60 * 60 * 24 * 30;
+    ini_set('session.gc_maxlifetime', (string) $lifetime);
     session_set_cookie_params([
-        'lifetime' => 0,
+        'lifetime' => $lifetime,
         'path' => $path,
         'httponly' => true,
         'samesite' => 'Lax',

@@ -179,3 +179,111 @@ B1_LESSONS = _num([
         {"prompt": "Purtroppo se usa para…", "options": ["una mala noticia", "un brindis", "pedir la cuenta", "decir la hora"], "correct": 0},
     ]},
 ])
+
+B2_LESSONS = _num([
+    {"title": "Aunque y con tal de que", "summary": "Concesión, condición y el matiz de «más bien».", "body": ["Sebbene y benché piden subjuntivo: sebbene piova, esco. Nonostante y ciononostante no lo exigen. Tuttavia corrige sin negar.", "Purché pone la condición: vengo, purché sia breve. Qualora es el si formal. Piuttosto baja el tono: no es caro, es più tosto caro."], "pins": ["sebbene", "nonostante", "tuttavia", "piuttosto", "benché", "purché", "qualora", "ciononostante"]},
+    {"title": "Probablemente, de hecho", "summary": "Certeza, añadido y el por lo tanto.", "body": ["Probabilmente deja la puerta abierta. Sicuramente la cierra. Addirittura sube la apuesta.", "Infatti y difatti confirman. Inoltre suma. Pertanto concluye. Ovvero reformula. Perlomeno salva un mínimo."], "pins": ["addirittura", "probabilmente", "sicuramente", "infatti", "inoltre", "pertanto", "ovvero", "difatti", "perlomeno"]},
+    {"title": "Leer el diario", "summary": "Fuente, título, entrevista y redacción.", "body": ["L'argomento es el tema. La fonte se cita. L'articolo sale al giornale con un titolo.", "L'intervista da la voz. La redazione es quien cierra el texto."], "pins": ["argomento", "fonte", "articolo", "giornale", "titolo", "intervista", "redazione"]},
+    {"title": "La noticia", "summary": "Crónica, investigación y el título inflado.", "body": ["La cronaca cuenta el hecho. L'editoriale opina. L'inchiesta investiga y el testimone declara.", "La notizia informa. La bufala miente. El titolone grita más de lo que el texto sostiene."], "pins": ["cronaca", "editoriale", "inchiesta", "testimone", "notizia", "bufala", "titolone"]},
+    {"title": "La economía", "summary": "Inflación, desempleo, PBI y el sueldo.", "body": ["L'economia se lee en la inflazione y la disoccupazione. Il pil resume el país.", "Il salario es el sueldo en la nota. Il precariato es el trabajo inestable. Le tasse son los impuestos."], "pins": ["economia", "inflazione", "disoccupazione", "pil", "salario", "precariato", "tasse"]},
+    {"title": "El contrato", "summary": "Cláusula, negociación y el currículum.", "body": ["Il contratto se firma. La clausola se lee antes. La trattativa es la mesa. La strategia es el plan.", "La competenza se muestra en el colloquio. El curriculum se adjunta. Affidabile es el adjetivo que buscás que te pongan."], "pins": ["contratto", "clausola", "trattativa", "strategia", "competenza", "colloquio", "curriculum", "affidabile"]},
+    {"title": "El conflicto laboral", "summary": "Sindicato, huelga, despido y la firma.", "body": ["El feedback se pide. Firmare y allegare cierran el trámite. Rallentare describe el freno.", "L'assunzione entra. Il licenziamento sale. Il sindacato convoca lo sciopero."], "pins": ["feedback", "firmare", "allegare", "rallentare", "assunzione", "licenziamento", "sindacato", "sciopero"]},
+    {"title": "La política", "summary": "Voto, parlamento, decreto y mayoría.", "body": ["La società cambia cuando il cittadino vota. Il voto es secreto. L'elezione tiene fecha.", "Parlamento y governo deciden. L'opposizione discute. Legge y decreto no son lo mismo. Il referendum consulta. Maggioranza y minoranza cuentan los votos."], "pins": ["società", "cittadino", "voto", "elezione", "parlamento", "governo", "opposizione", "legge", "decreto", "referendum", "maggioranza", "minoranza"]},
+    {"title": "El mail formal", "summary": "Condicional, cortesía y el adjunto.", "body": ["El condizionale pide: vorrei. El congiuntivo entra en las subordinadas formales. La cortesia se nota en el tono, no en los adjetivos vacíos.", "La richiesta tiene un oggetto. El allegato va nombrado. Distinti saluti cierra. Spettabile abre a una empresa. Il sollecito es el segundo mail, cuando no contestaron. Il diritto nombra lo que corresponde."], "pins": ["condizionale", "congiuntivo", "cortesia", "richiesta", "allegato", "oggetto", "distinti", "spettabile", "sollecito", "diritto"]},
+    {"title": "Cultura", "summary": "Muestra, novela, escenario y reseña.", "body": ["La mostra se visita. Il romanzo se lee. L'autore firma. Il pubblico aplaude o se va.", "La recensione juzga. Palcoscenico, copione, trama y personaggio arman la obra."], "pins": ["mostra", "romanzo", "autore", "pubblico", "recensione", "palcoscenico", "copione", "trama", "personaggio"]},
+    {"title": "La sociedad", "summary": "Brecha, salud, vivienda y prejuicio.", "body": ["Il divario y la disuguaglianza miden la distancia. Welfare, sanità, istruzione y pensioni son la red.", "L'alloggio es la vivienda. L'integrazione se discute. Pregiudizio y stereotipo son el atajo que el texto serio evita."], "pins": ["divario", "disuguaglianza", "welfare", "sanità", "istruzione", "pensioni", "alloggio", "integrazione", "pregiudizio", "stereotipo"]},
+    {"title": "La objeción", "summary": "Ventaja, límite y un acuerdo que no es rendición.", "body": ["La sfida abre. L'opportunità tienta. Il limite frena. Vantaggio y svantaggio se ponen en la misma frase.", "L'equilibrio se busca. Il compromesso no es derrota. La proposta se escucha. L'obiezione se responde."], "pins": ["sfida", "opportunità", "limite", "vantaggio", "svantaggio", "equilibrio", "compromesso", "proposta", "obiezione"], "dialogue": [
+        {"zh": "La proposta è interessante, tuttavia ho un'obiezione.", "py": "la proposta e interesante, tuttavia o unobiezione", "es": "La propuesta es interesante, sin embargo tengo una objeción."},
+        {"zh": "Quale?", "py": "kuale", "es": "¿Cuál?"},
+        {"zh": "Il vantaggio è chiaro, ma c'è un limite di tempo.", "py": "il vantayo e kiaro, ma che un limite di tempo", "es": "La ventaja es clara, pero hay un límite de tiempo."},
+        {"zh": "Cerchiamo un compromesso.", "py": "cherkiamo un kompromeso", "es": "Busquemos un acuerdo."},
+        {"zh": "D'accordo, purché sia scritto.", "py": "dakordo, purke sia skrito", "es": "De acuerdo, con tal de que quede por escrito."},
+    ], "quiz": [
+        {"prompt": "Tuttavia significa…", "options": ["sin embargo", "por favor", "nunca", "arriba"], "correct": 0},
+        {"prompt": "Lo sciopero es…", "options": ["la huelga", "el título", "el escenario", "el impuesto"], "correct": 0},
+        {"prompt": "Purché introduce…", "options": ["una condición", "un saludo", "una hora", "un color"], "correct": 0},
+        {"prompt": "Il titolone es…", "options": ["un título inflado", "un sindicato", "un contrato", "un verso"], "correct": 0},
+        {"prompt": "Allegare quiere decir…", "options": ["adjuntar", "votar", "ahorrar", "toser"], "correct": 0},
+    ]},
+])
+
+C1_LESSONS = _num([
+    {"title": "Registro y matiz", "summary": "Implícito, irónico, sutil y demasiado largo.", "body": ["La sfumatura es el matiz. Il registro dice si el texto es formal o no. Implicito se infiere. Esplicito se dice.", "Il tono puede ser de ironia o sarcastico. La metafora no se lee al pie de la letra: letterale es otra cosa. Sottile casi no se ve. Prolisso sobra. Conciso alcanza."], "pins": ["sfumatura", "registro", "implicito", "esplicito", "tono", "ironia", "metafora", "sottile", "sarcastico", "letterale", "prolisso", "conciso"]},
+    {"title": "El argumento", "summary": "Premisa, hipótesis, contradicción y tesis.", "body": ["Il presupposto se da por sentado. Si es falso, cae todo. La premessa se enuncia. L'ipotesi se pone a prueba. La tesi se sostiene.", "Coerenza mantiene el hilo. La contraddizione lo corta. L'ambiguità lo nubla. La conclusione cierra, y si llega antes de tiempo se nota."], "pins": ["presupposto", "coerenza", "contraddizione", "ambiguità", "premessa", "conclusione", "ipotesi", "tesi"]},
+    {"title": "Método", "summary": "Criterio, contexto y la muestra.", "body": ["La verifica comprueba. Il criterio justifica la elección. La metodologia se puede repetir.", "Il contesto cambia el sentido. La prospettiva es desde dónde se mira. Il campione es la muestra, no el ganador."], "pins": ["verifica", "criterio", "metodologia", "contesto", "prospettiva", "campione"]},
+    {"title": "Los datos", "summary": "Porcentaje, variable y encuesta.", "body": ["La statistica no habla sola. La percentuale sube o baja. La variabile es lo que se mueve.", "La correlazione no es causa. Il sondaggio pregunta, y la fecha importa."], "pins": ["statistica", "percentuale", "variabile", "correlazione", "sondaggio"]},
+    {"title": "Qué está pasando", "summary": "Tendencia, fenómeno, riesgo y juicio.", "body": ["La tendenza se observa en el tiempo. Il fenomeno se describe. La conseguenza se acepta o se discute.", "Recente ubica el hecho. Il rischio se nombra. Il giudizio se puede suspender."], "pins": ["tendenza", "fenomeno", "conseguenza", "recente", "rischio", "giudizio"]},
+    {"title": "Verbos del debate", "summary": "Argumentar, refutar, precisar y atenuar.", "body": ["Argomentare construye. Confutare desmonta. Sostenere mantiene una posición, incluso la contraria.", "Precisare achica el blanco. Attenuare baja el juicio. Enfatizzare sube el riesgo."], "pins": ["argomentare", "confutare", "sostenere", "precisare", "attenuare", "enfatizzare"]},
+    {"title": "El texto", "summary": "Borrador, ensayo, cita y párrafo.", "body": ["Formalizzare deja por escrito. Adeguare el tono al lector. Approfondire es ir más adentro, no alargar.", "La bozza se manda. La revisione la corrige. La sintesi achica. Il saggio argumenta. Il paragrafo se lee. La citazione se atribuye."], "pins": ["formalizzare", "adeguare", "approfondire", "bozza", "revisione", "sintesi", "saggio", "paragrafo", "citazione"]},
+    {"title": "El derecho", "summary": "Norma, recurso, sentencia y mediación.", "body": ["La normativa manda. El ricorso se presenta. La sentenza cierra. Il tribunale decide. L'avvocato representa.", "La mediazione busca una salida. Il negoziato sigue mientras haya margen."], "pins": ["normativa", "ricorso", "sentenza", "tribunale", "avvocato", "mediazione", "negoziato"]},
+    {"title": "Tecnología", "summary": "Algoritmo, plataforma, privacidad y patente.", "body": ["L'algoritmo decide sin explicar, y a veces se equivoca. La piattaforma es el lugar. La privacy es el límite.", "Il brevetto protege. L'innovazione cuesta y se vende."], "pins": ["algoritmo", "piattaforma", "privacy", "brevetto", "innovazione"]},
+    {"title": "Ética", "summary": "Dilema, principio y responsabilidad.", "body": ["L'etica pregunta qué corresponde. Il dilemma no tiene una salida limpia. Il principio no se negocia fácil.", "La responsabilità tiene un sujeto. Empatia y resilienza no reemplazan el argumento. La consapevolezza es darse cuenta."], "pins": ["etica", "dilemma", "principio", "responsabilità", "empatia", "resilienza", "consapevolezza"]},
+    {"title": "Claridad", "summary": "Eficaz, oscuro, índice y bibliografía.", "body": ["Efficace logra el efecto. Oscuro obliga a releer. Trasparente se puede seguir.", "La bibliografia y la nota sostienen. Il capitolo ordena. L'indice orienta."], "pins": ["efficace", "oscuro", "trasparente", "bibliografia", "nota", "capitolo", "indice"]},
+    {"title": "El debate", "summary": "Consenso, disenso y la réplica.", "body": ["Il dibattito se modera. Il moderatore da la palabra. L'intervento es breve. La replica responde.", "Il consenso se construye. Il dissenso se expresa. Diplomazia, trattato y sanzione son el mismo gesto en grande: hablar, firmar, o cortar."], "pins": ["dibattito", "moderatore", "intervento", "replica", "consenso", "dissenso", "diplomazia", "trattato", "sanzione"], "dialogue": [
+        {"zh": "La tesi non regge: c'è una contraddizione.", "py": "la tezi non reye: che una kontraditsione", "es": "La tesis no se sostiene: hay una contradicción."},
+        {"zh": "Preciso. Era un'ipotesi, non una conclusione.", "py": "prechiso. era unipotesi, non una konklusione", "es": "Preciso. Era una hipótesis, no una conclusión."},
+        {"zh": "Allora manca la verifica.", "py": "alora manka la verifika", "es": "Entonces falta la verificación."},
+        {"zh": "D'accordo. La facciamo prima del dibattito.", "py": "dakordo. la fachamo prima del dibattito", "es": "De acuerdo. La hacemos antes del debate."},
+        {"zh": "Il moderatore dà la parola.", "py": "il moderatore da la parola", "es": "El moderador da la palabra."},
+    ], "quiz": [
+        {"prompt": "Confutare significa…", "options": ["refutar", "citar", "firmar", "ahorrar"], "correct": 0},
+        {"prompt": "La bozza es…", "options": ["el borrador", "la sentencia", "la encuesta", "el índice"], "correct": 0},
+        {"prompt": "Implicito quiere decir…", "options": ["implícito", "reciente", "tajante", "literal"], "correct": 0},
+        {"prompt": "Il ricorso se presenta ante…", "options": ["un tribunal", "una receta", "un andén", "un mercado"], "correct": 0},
+        {"prompt": "La sintesi es…", "options": ["una síntesis", "una huelga", "una bufanda", "un alquiler"], "correct": 0},
+    ]},
+])
+
+C2_LESSONS = _num([
+    {"title": "Conectores de registro alto", "summary": "No obstante, o sea, sino y ante todo.", "body": ["Nondimeno no niega: suma una reserva. Ossia reformula. Pressoché casi cierra la puerta. Bensì corrige: no es pereza, sino cautela.", "Quantunque concede en registro alto. Tuttora dice que sigue. Oramai marca que ya es tarde para otra cosa. Invero afirma. Nonché suma un segundo término. Anzitutto ordena el primero."], "pins": ["nondimeno", "ossia", "pressoché", "bensì", "quantunque", "tuttora", "oramai", "invero", "nonché", "anzitutto"]},
+    {"title": "Matizar el sentido", "summary": "Dar a entender, reforzar y la densidad.", "body": ["Sfumare desdibuja el límite. Sottintendere no lo dice. Palesare lo deja a la vista. Avvalorare refuerza la tesis con datos.", "Ridondante sobra. Pregnante carga sentido. Perentorio no admite réplica. Forbito está pulido. Icasticità, pregnanza y perentorietà nombran esas cualidades."], "pins": ["sfumare", "sottintendere", "palesare", "avvalorare", "ridondante", "pregnante", "perentorio", "forbito", "icasticità", "pregnanza", "perentorietà"]},
+    {"title": "El registro", "summary": "Coloquial, áulico, descuidado y solemne.", "body": ["Colloquiale baja. Aulico sube. Sciatto se descuida. Pedante corrige de más. Cristallino se entiende de una. Sfuggente esquiva. Lapidario cierra en una frase.", "Sobrio no adorna. Solenne pesa. Dimesso se apaga. Stringato es escueto. Ampolloso se infla."], "pins": ["colloquiale", "aulico", "sciatto", "pedante", "cristallino", "sfuggente", "lapidario", "sobrio", "solenne", "dimesso", "stringato", "ampolloso"]},
+    {"title": "El tono", "summary": "Capcioso, punzante, límpido y rebuscado.", "body": ["Fuorviante desvía. Capzioso atrapa en la forma. Ricercato elige de más. Pungente pincha. Blando no corta. Tagliente sí.", "Allusivo no nombra. Ellittico salta. Limpido se sigue. Lambiccato se enreda."], "pins": ["fuorviante", "capzioso", "ricercato", "pungente", "blando", "tagliente", "allusivo", "ellittico", "limpido", "lambiccato"]},
+    {"title": "Figuras", "summary": "Lítote, oxímoron, hipérbole y quiasmo.", "body": ["El eufemismo tapa. La litote niega lo contrario: non male. El ossimoro junta opuestos. El pleonasmo repite.", "Iperbole exagera. Sineddoche toma la parte. Metonimia toma lo contiguo. Antitesi opone. Chiasmo cruza. Anacoluto rompe la sintaxis. Ellissi omite. Paradosso parece imposible y se sostiene."], "pins": ["eufemismo", "litote", "ossimoro", "pleonasmo", "iperbole", "sineddoche", "metonimia", "antitesi", "chiasmo", "anacoluto", "ellissi", "paradosso"]},
+    {"title": "Ironía y atenuación", "summary": "Sarcasmo, lítote inglesa y el límite matizado.", "body": ["Il sarcasmo pesa. El understatement dice menos de lo que hay. Sfumato deja el borde sin línea.", "No hace falta un adjetivo más si la figura ya hizo el trabajo."], "pins": ["sarcasmo", "understatement", "sfumato"]},
+    {"title": "De dónde viene la palabra", "summary": "Neologismo, arcaísmo, calco y préstamo.", "body": ["Il lessico se elige. La connotazione carga valor. La denotazione se queda en el diccionario.", "Neologismo acaba de llegar. Arcaismo se quedó. Regionalismo marca el lugar. Calco traduce la estructura. Prestito toma la palabra. Idiomatico no se traduce pieza por pieza. Figurato no es el sentido recto."], "pins": ["lessico", "connotazione", "denotazione", "neologismo", "arcaismo", "regionalismo", "calco", "prestito", "idiomatico", "figurato"]},
+    {"title": "Norma y variante", "summary": "Estándar, desvío y marca de registro.", "body": ["La norma es el uso que se enseña. La deviazione puede ser un error o una elección. La variante convive.", "Standard nombra el italiano de referencia. La marca avisa el registro antes de que el lector se confunda."], "pins": ["norma", "deviazione", "variante", "standard", "marca"]},
+    {"title": "Prosa y verso", "summary": "Estrofa, malestar y cautela.", "body": ["La prosa avanza. Il verso mide. La strofa agrupa.", "Il disagio se percibe sin que el texto lo grite. La cautela es no cerrar antes de tiempo."], "pins": ["prosa", "verso", "strofa", "disagio", "cautela"]},
+    {"title": "El razonamiento", "summary": "Límite lábil y silencio ensordecedor.", "body": ["Il ragionamento se sostiene o no. Il confine puede ser labile: se corre.", "Assordante, puesto junto a silencio, arma el oxímoron que ya viste. Acá el trabajo es reconocerlo, no solo traducirlo."], "pins": ["ragionamento", "confine", "labile", "assordante"]},
+    {"title": "Leer el efecto", "summary": "Qué hace la frase, no solo qué dice.", "body": ["Una frase forbita puede ser vacía. Una colloquiale puede ser precisa. El nivel C2 se juega en ese juicio.", "Preguntate: ¿atenúa, exagera, da a entender o cierra? El nombre de la figura viene después."], "pins": ["forbito", "colloquiale", "sfumare"]},
+    {"title": "Una frase que se sostiene", "summary": "Elegir el conector y no adornar de más.", "body": ["Nondimeno no es però con otra ropa si no cambia el peso de la frase. Bensì corrige. Ossia aclara.", "Si el adjetivo no cambia el sentido, sobra. Eso es ridondante."], "pins": ["nondimeno", "bensì", "ossia", "ridondante"], "dialogue": [
+        {"zh": "Il tono è perentorio, nondimeno il ragionamento regge.", "py": "il tono e perentorio, nondimeno il rayonamento reye", "es": "El tono es tajante, no obstante el razonamiento se sostiene."},
+        {"zh": "È forbito, ossia curato, ma un po' ridondante.", "py": "e forbito, osia kurato, ma un po ridondante", "es": "Está pulido, o sea cuidado, pero un poco redundante."},
+        {"zh": "Non è pigrizia, bensì cautela.", "py": "non e pigrizia, bensí kautela", "es": "No es pereza, sino cautela."},
+        {"zh": "Il confine è labile.", "py": "il konfine e labile", "es": "El límite es lábil."},
+        {"zh": "Appunto. Non va palesato tutto.", "py": "apunto. non va palesato tuto", "es": "Exacto. No hace falta dejar todo a la vista."},
+    ], "quiz": [
+        {"prompt": "Bensì equivale a…", "options": ["sino", "aunque", "nunca", "arriba"], "correct": 0},
+        {"prompt": "Una litote es…", "options": ["negar lo contrario para atenuar", "un título de diario", "una multa", "un participio"], "correct": 0},
+        {"prompt": "Pressoché significa…", "options": ["casi", "ayer", "debajo", "juntos"], "correct": 0},
+        {"prompt": "Un calco es…", "options": ["una traducción de la estructura", "un ascensor", "una receta", "un andén"], "correct": 0},
+        {"prompt": "Ridondante describe algo…", "options": ["redundante", "gratis", "temprano", "cerrado"], "correct": 0},
+    ]},
+])
+
+
+def _clean(lessons):
+    cleaned = []
+    for item in lessons:
+        cleaned.append({key: value for key, value in item.items() if value is not None})
+    return cleaned
+
+
+def extra_words():
+    return {
+        2: A2_NEW,
+        3: B1_NEW + B1_EXTRA,
+        4: B2_NEW,
+        5: C1_NEW,
+        6: C2_NEW,
+    }
+
+
+def extra_lessons():
+    return {
+        2: _clean(A2_LESSONS),
+        3: _clean(B1_LESSONS),
+        4: _clean(B2_LESSONS),
+        5: _clean(C1_LESSONS),
+        6: _clean(C2_LESSONS),
+    }

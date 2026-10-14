@@ -7,21 +7,21 @@
     <ul class="stat-row">
       <li><strong><?= count($lessons) ?></strong> clases</li>
       <li><strong><?= number_format((int) $level['words_new'], 0, ',', '.') ?></strong> palabras nuevas</li>
-      <li><strong><?= number_format((int) $level['words_cumulative'], 0, ',', '.') ?></strong> acumuladas</li>
     </ul>
   </div>
 </section>
 <div class="page-wrap">
   <div class="class-index">
     <?php foreach ($lessons as $index => $lesson): ?>
-      <a class="class-link<?= !empty($progress[(int) $lesson['id']]) ? ' is-done' : '' ?>" style="--i: <?= min((int) $index, 14) ?>" href="<?= e(url($level['slug'] . '/clase/' . $lesson['slug'])) ?>">
+      <?php $state = $progress[(int) $lesson['id']] ?? ''; ?>
+      <a class="class-link<?= $state === 'done' ? ' is-done' : ($state === 'started' ? ' is-started' : '') ?>" style="--i: <?= min((int) $index, 14) ?>" href="<?= e(url($level['slug'] . '/clase/' . $lesson['slug'])) ?>">
         <div class="class-link-top">
           <span class="class-number"><?= str_pad((string) $lesson['number'], 2, '0', STR_PAD_LEFT) ?></span>
-          <span class="class-date"><?= !empty($progress[(int) $lesson['id']]) ? 'Hecha' : e($level['title']) ?></span>
+          <span class="class-date"><?= $state === 'done' ? 'Hecha' : ($state === 'started' ? 'En curso' : e($level['title'])) ?></span>
         </div>
         <h2><?= e($lesson['title']) ?></h2>
         <p class="class-summary"><?= e($lesson['summary']) ?></p>
-        <span class="class-cta"><?= !empty($progress[(int) $lesson['id']]) ? 'Repasar' : 'Entrar' ?> →</span>
+        <span class="class-cta"><?= $state === 'done' ? 'Repasar' : 'Entrar' ?> →</span>
       </a>
     <?php endforeach; ?>
   </div>

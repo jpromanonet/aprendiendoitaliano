@@ -1,0 +1,360 @@
+[
+  {
+    "title": "La casa",
+    "summary": "Habitaciones, muebles y el alquiler.",
+    "body": [
+      "En A1 viste casa y porta. Acá se entra: cucina, bagno, camera, letto, y lo que hay adentro.",
+      "Il divano, la lampada, lo specchio y l'armadio. L'affitto se dice cada mes. La chiave abre la porta."
+    ],
+    "pins": [
+      "cucina",
+      "bagno",
+      "camera",
+      "letto",
+      "finestra",
+      "porta",
+      "chiave",
+      "tavolo",
+      "sedia",
+      "affitto",
+      "armadio",
+      "divano",
+      "specchio",
+      "lampada"
+    ],
+    "number": 1
+  },
+  {
+    "title": "El edificio",
+    "summary": "Piso, ascensor, consorcio y facturas.",
+    "body": [
+      "El edificio tiene piano, ascensore, cortile y balcone. El condomino es quien vive ahí.",
+      "Il condominio se reúne. El citofono avisa. Riscaldamento y bolletta llegan juntos. Si algo se rompe, sirve una riparazione. Rumore y silenzioso describen el barrio."
+    ],
+    "pins": [
+      "rumore",
+      "silenzioso",
+      "condomino",
+      "ascensore",
+      "piano",
+      "cortile",
+      "condominio",
+      "citofono",
+      "balcone",
+      "riscaldamento",
+      "bolletta",
+      "riparazione"
+    ],
+    "number": 2
+  },
+  {
+    "title": "El día",
+    "summary": "De la alarma al horario, con siempre, nunca y a menudo.",
+    "body": [
+      "La sveglia abre el día. Colazione, pranzo y el pomeriggio parten la jornada. Presto y tardi dicen cuándo.",
+      "Sempre, spesso y mai miden la costumbre. Stasera cierra el plan. L'orario y l'abitudine ordenan la semana."
+    ],
+    "pins": [
+      "presto",
+      "tardi",
+      "sempre",
+      "spesso",
+      "mai",
+      "stasera",
+      "orario",
+      "sveglia",
+      "colazione",
+      "pranzo",
+      "pomeriggio",
+      "abitudine"
+    ],
+    "number": 3
+  },
+  {
+    "title": "El trabajo",
+    "summary": "Oficina, jefe, sueldo y horas extra.",
+    "body": [
+      "Ufficio, collega y capo arman el día laboral. Lo stipendio llega, las ferie se piden con un permesso.",
+      "La pausa corta el compito. El computer y el messaggio son el canal. Occupato avisa que no podés. Lo straordinario alarga la jornada."
+    ],
+    "pins": [
+      "ufficio",
+      "collega",
+      "stipendio",
+      "ferie",
+      "capo",
+      "pausa",
+      "compito",
+      "computer",
+      "straordinario",
+      "occupato",
+      "messaggio",
+      "permesso"
+    ],
+    "number": 4
+  },
+  {
+    "title": "La ropa",
+    "summary": "Lo que te ponés, del pantalón a la bufanda.",
+    "body": [
+      "Maglia, vestito, scarpe y cappello ya alcanzan para entrar a un negocio. Sumá pantaloni, giacca y gonna.",
+      "Calze, occhiali, cintura y sciarpa cierran el look. Il costume es la malla."
+    ],
+    "pins": [
+      "maglia",
+      "scarpe",
+      "cappello",
+      "vestito",
+      "pantaloni",
+      "giacca",
+      "gonna",
+      "calze",
+      "occhiali",
+      "cintura",
+      "sciarpa",
+      "costume"
+    ],
+    "number": 5
+  },
+  {
+    "title": "El cuerpo",
+    "summary": "Dónde duele y a quién se lo decís.",
+    "body": [
+      "Occhio ya estaba. Testa, mano, bocca, dente, stomaco, schiena y gola nombran el resto.",
+      "Il dolore se dice con mi fa male. Il dottore y la medicina están en la farmacia."
+    ],
+    "pins": [
+      "occhio",
+      "dottore",
+      "medicina",
+      "testa",
+      "mano",
+      "bocca",
+      "dente",
+      "stomaco",
+      "schiena",
+      "dolore",
+      "farmacia",
+      "gola"
+    ],
+    "number": 6
+  },
+  {
+    "title": "El pasado próximo",
+    "summary": "Ho y sono más el participio.",
+    "body": [
+      "Con avere: ho mangiato, ho visto, ho fatto, ho detto, ho preso, ho bevuto, ho dormito.",
+      "Con essere, el participio concuerda: sono andato, sono uscita, sono tornato, è arrivato, è partito. El auxiliar no se elige al azar: el movimiento y el cambio de estado suelen ir con essere."
+    ],
+    "pins": [
+      "mangiato",
+      "andato",
+      "visto",
+      "fatto",
+      "detto",
+      "preso",
+      "bevuto",
+      "dormito",
+      "uscito",
+      "tornato",
+      "arrivato",
+      "partito"
+    ],
+    "number": 7
+  },
+  {
+    "title": "Moverse",
+    "summary": "Subte, tren, taxi y la demora.",
+    "body": [
+      "Metropolitana, aeroporto y valigia cubren el viaje largo. Taxi, fermata y binario cubren el corto.",
+      "Il ritardo y la coincidenza explican por qué llegás tarde. Mappa, ponte, centro y museo orientan cuando ya bajaste."
+    ],
+    "pins": [
+      "metropolitana",
+      "aeroporto",
+      "valigia",
+      "taxi",
+      "fermata",
+      "binario",
+      "ritardo",
+      "coincidenza",
+      "mappa",
+      "ponte",
+      "centro",
+      "museo"
+    ],
+    "number": 8
+  },
+  {
+    "title": "El mercado",
+    "summary": "Puesto, kilo, caja y el vuelto.",
+    "body": [
+      "Il mercato abre temprano. El banco es el puesto. Pedís un chilo y lo pesan en la bilancia.",
+      "Pagás alla cassa. El resto es el vuelto. Scontrino, busta y offerta cierran la compra. Fresco elogia. Prenotare reserva la mesa, no el kilo."
+    ],
+    "pins": [
+      "mercato",
+      "prenotare",
+      "banco",
+      "chilo",
+      "cassa",
+      "resto",
+      "scontrino",
+      "busta",
+      "offerta",
+      "fresco",
+      "bilancia",
+      "cesto"
+    ],
+    "number": 9
+  },
+  {
+    "title": "Gustos",
+    "summary": "Me encanta, lo detesto, demasiado y bastante.",
+    "body": [
+      "Preferire ya arma la elección. Adorare sube y detestare baja.",
+      "Abbastanza, troppo, poco y molto gradúan. Sapore, salato, dolce y amaro describen el plato. Goloso confiesa el vicio."
+    ],
+    "pins": [
+      "preferire",
+      "adorare",
+      "detestare",
+      "abbastanza",
+      "troppo",
+      "poco",
+      "molto",
+      "sapore",
+      "goloso",
+      "salato",
+      "dolce",
+      "amaro"
+    ],
+    "number": 10
+  },
+  {
+    "title": "Tiempo libre",
+    "summary": "Deporte, música y una salida.",
+    "body": [
+      "Sport y palestra son el cuerpo. Nuotare, ballare y suonare son hacer.",
+      "Film y concerto son la salida. L'invito llega, la partita tiene squadra. L'hobby gusta. La noia avisa que el plan falló."
+    ],
+    "pins": [
+      "sport",
+      "palestra",
+      "nuotare",
+      "ballare",
+      "suonare",
+      "film",
+      "concerto",
+      "invito",
+      "partita",
+      "squadra",
+      "hobby",
+      "noia"
+    ],
+    "number": 11
+  },
+  {
+    "title": "El fin de semana",
+    "summary": "Campo, lago y una excursión en auto.",
+    "body": [
+      "La gita sale el domingo. Campagna, lago y montagna son el destino. El picnic va en el zaino.",
+      "Il sentiero sube hasta el panorama. Tramonto y alba marcan la luz. La macchina pide benzina.",
+      "Proponé con andiamo y cerrá con ci vediamo."
+    ],
+    "pins": [
+      "gita",
+      "campagna",
+      "lago",
+      "montagna",
+      "picnic",
+      "sentiero",
+      "panorama",
+      "tramonto",
+      "alba",
+      "zaino",
+      "macchina",
+      "benzina"
+    ],
+    "dialogue": [
+      {
+        "zh": "Domenica facciamo una gita?",
+        "py": "domenika fachamo una yita",
+        "es": "¿El domingo hacemos una excursión?"
+      },
+      {
+        "zh": "Sì, in montagna. Porto lo zaino.",
+        "py": "si, in montaña. porto lo tsaino",
+        "es": "Sí, a la montaña. Llevo la mochila."
+      },
+      {
+        "zh": "Prendiamo la macchina?",
+        "py": "prendiamo la makina",
+        "es": "¿Llevamos el auto?"
+      },
+      {
+        "zh": "Sì, ma manca la benzina.",
+        "py": "si, ma manka la bentsina",
+        "es": "Sí, pero falta nafta."
+      },
+      {
+        "zh": "Allora passo io. Ci vediamo all'alba.",
+        "py": "alora paso io. chi vediamo alalba",
+        "es": "Entonces paso yo. Nos vemos al amanecer."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt": "Lo zaino es…",
+        "options": [
+          "la mochila",
+          "el ascensor",
+          "el sueldo",
+          "el vuelto"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Manca la benzina quiere decir…",
+        "options": [
+          "falta nafta",
+          "falta pan",
+          "está cerrado",
+          "llegué tarde"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "La gita es…",
+        "options": [
+          "una excursión",
+          "una factura",
+          "un dolor",
+          "un permiso"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Il tramonto es…",
+        "options": [
+          "el atardecer",
+          "el desayuno",
+          "el andén",
+          "el jefe"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "In montagna significa…",
+        "options": [
+          "a la montaña",
+          "en la oficina",
+          "en la caja",
+          "en ayunas"
+        ],
+        "correct": 0
+      }
+    ],
+    "number": 12
+  }
+]

@@ -396,6 +396,8 @@ def lesson(number, title, summary, body, pins, dialogue=None, quiz=None, extras=
 
 
 def main():
+    from course_bind import extra_lessons, extra_words
+
     lexicon = []
     lexicon += pack(A1, 1)
     lexicon += pack(A2, 2)
@@ -403,6 +405,8 @@ def main():
     lexicon += pack(B2, 4)
     lexicon += pack(C1, 5)
     lexicon += pack(C2, 6)
+    for level, rows in extra_words().items():
+        lexicon += pack(rows, level)
     seen = set()
     for item in lexicon:
         if item["hanzi"] in seen:
@@ -601,15 +605,32 @@ def main():
     if missing:
         raise SystemExit("pins fuera del léxico: " + ", ".join(missing))
 
+    courses = {1: lessons, **extra_lessons()}
+    by_level = {}
+    for item in lexicon:
+        by_level.setdefault(item["level"], set()).add(item["hanzi"])
+    names = {1: "a1", 2: "a2", 3: "b1", 4: "b2", 5: "c1", 6: "c2"}
+    for level, classes in courses.items():
+        if len(classes) != 12:
+            raise SystemExit(f"{names[level]} tiene {len(classes)} clases")
+        pinned = [pin for item in classes for pin in item["pins"]]
+        unknown = sorted({pin for pin in pinned if pin not in by_level[level]})
+        if unknown:
+            raise SystemExit(f"{names[level]} pins ajenos: " + ", ".join(unknown))
+        uncovered = sorted(by_level[level] - set(pinned))
+        if uncovered:
+            raise SystemExit(f"{names[level]} sin clase: " + ", ".join(uncovered))
+
     (ROOT / "data" / "lexicon.json").write_text(
         json.dumps(lexicon, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    (ROOT / "data" / "a1.json").write_text(
-        json.dumps(lessons, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    print(f"lexico {len(lexicon)} clases A1 {len(lessons)}")
+    counts = []
+    for level, classes in courses.items():
+        path = ROOT / "data" / f"{names[level]}.json"
+        path.write_text(json.dumps(classes, ensure_ascii=False, indent=2), encoding="utf-8")
+        counts.append(f"{names[level].upper()} {len(classes)}")
+    print(f"lexico {len(lexicon)} " + " ".join(counts))
 
 
 if __name__ == "__main__":

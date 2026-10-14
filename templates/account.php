@@ -136,9 +136,9 @@
               <form method="post" enctype="multipart/form-data" data-avatar-form>
                 <?= csrf_field() ?>
                 <input type="hidden" name="action" value="avatar">
-                <label class="profile-text-action">
+                <label class="profile-text-action profile-photo">
                   Subir foto
-                  <input class="visually-hidden" type="file" name="avatar" accept="image/jpeg,image/png,image/webp" required>
+                  <input type="file" name="avatar" accept="image/jpeg,image/png,image/webp,image/*" required>
                 </label>
               </form>
               <a class="profile-text-action profile-certs" href="<?= e(url('certificados')) ?>">Certificados</a>
