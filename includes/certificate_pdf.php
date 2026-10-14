@@ -12,49 +12,65 @@ function certificate_pdf(array $sheet): string
     $soft = '0.29 0.36 0.32';
     $ops = [];
     $ops[] = "0.992 0.984 0.965 rg 0 0 $pageW $pageH re f";
-    $ops[] = "$green rg 0 0 22 $pageH re f";
-    $ops[] = "$red rg " . ($pageW - 22) . " 0 22 $pageH re f";
-    $ops[] = "$green RG 2.2 w 40 40 " . ($pageW - 80) . ' ' . ($pageH - 80) . ' re S';
-    $ops[] = "$red RG 0.8 w 48 48 " . ($pageW - 96) . ' ' . ($pageH - 96) . ' re S';
+    $ops[] = "$green rg 0 0 18 $pageH re f";
+    $ops[] = "$red rg " . ($pageW - 18) . " 0 18 $pageH re f";
+    $frameX = 36.0;
+    $frameY = 32.0;
+    $frameW = $pageW - 72;
+    $frameH = $pageH - 64;
+    $ops[] = pdf_stroke($green, 1.7, $frameX, $frameY, $frameW, $frameH);
+    $ops[] = pdf_stroke($red, 0.6, $frameX + 8, $frameY + 8, $frameW - 16, $frameH - 16);
+    $ops[] = pdf_corners($green, 1.8, $frameX - 1, $frameY - 1, $frameW + 2, $frameH + 2, 16);
+    $ops[] = pdf_corners($red, 0.9, $frameX + 8, $frameY + 8, $frameW - 16, $frameH - 16, 11);
 
-    $flagW = 108;
-    $flagH = 16;
+    $yFlag = 492.0;
+    $yKicker = 466.0;
+    $yOrnament = 444.0;
+    $yTitle = 396.0;
+    $ySubtitle = 356.0;
+    $yLead = 312.0;
+    $yName = 268.0;
+    $yRule = 250.0;
+    $yBody = 218.0;
+    $yFootRule = 176.0;
+    $yLabel = 152.0;
+    $yMeta = 132.0;
+    $yNote = 104.0;
+    $innerBottom = $frameY + 8;
+    $innerTop = $innerBottom + ($frameH - 16);
+    $shift = (($innerBottom + $innerTop) / 2) - ((($yFlag + 16) + ($yNote - 2)) / 2);
+    $yFlag += $shift;
+    $yKicker += $shift;
+    $yOrnament += $shift;
+    $yTitle += $shift;
+    $ySubtitle += $shift;
+    $yLead += $shift;
+    $yName += $shift;
+    $yRule += $shift;
+    $yBody += $shift;
+    $yFootRule += $shift;
+    $yLabel += $shift;
+    $yMeta += $shift;
+    $yNote += $shift;
+
+    $flagW = 96.0;
+    $flagH = 16.0;
     $flagX = ($pageW - $flagW) / 2;
-    $flagY = 508;
     $stripe = $flagW / 3;
-    $ops[] = "$green rg $flagX $flagY $stripe $flagH re f";
-    $ops[] = "1 1 1 rg " . ($flagX + $stripe) . " $flagY $stripe $flagH re f";
-    $ops[] = "$red rg " . ($flagX + $stripe * 2) . " $flagY $stripe $flagH re f";
-    $ops[] = "$ink RG 0.6 w $flagX $flagY $flagW $flagH re S";
-
-    $blocks = [
-        [11, true, 1.6, $ink, 478, $sheet['kicker']],
-        [36, true, 0, $ink, 430, $sheet['title']],
-        [16, true, 0.4, $red, 392, $sheet['subtitle']],
-        [12, false, 0, $soft, 348, $sheet['lead']],
-        [26, true, 0, $ink, 308, $sheet['name']],
-        [12, false, 0, $ink, 262, $sheet['body']],
-        [13, true, 0.8, $red, 176, $sheet['code']],
-        [11, false, 0, $soft, 150, $sheet['date']],
-        [9, false, 0.3, $soft, 126, 'Sin validez oficial'],
-    ];
-    foreach ($blocks as [$size, $bold, $tracking, $color, $y, $text]) {
-        $text = trim($text);
-        if ($text === '') {
-            continue;
-        }
-        $drawSize = $size;
-        $width = pdf_text_width($text, $drawSize, $bold, $tracking);
-        $max = 640;
-        if ($width > $max && $width > 0) {
-            $drawSize = $size * ($max / $width);
-            $width = $max;
-        }
-        $x = ($pageW - $width) / 2;
-        $font = $bold ? 'F2' : 'F1';
-        $ops[] = "BT /$font $drawSize Tf $color rg $tracking Tc 1 0 0 1 $x $y Tm " . pdf_literal($text) . ' Tj ET';
-    }
-    $ops[] = "$red RG 0.7 w 310 292 m 532 292 l S";
+    $ops[] = pdf_fill($green, $flagX, $yFlag, $stripe, $flagH);
+    $ops[] = pdf_fill('1 1 1', $flagX + $stripe, $yFlag, $stripe, $flagH);
+    $ops[] = pdf_fill($red, $flagX + ($stripe * 2), $yFlag, $stripe, $flagH);
+    $ops[] = pdf_stroke($ink, 0.7, $flagX, $yFlag, $flagW, $flagH);
+    $ops[] = pdf_centered($sheet['kicker'], 9.5, true, 2.1, $ink, $pageW, $yKicker);
+    $ops[] = pdf_ornament($pageW / 2, $yOrnament, 92, $green, $red);
+    $ops[] = pdf_centered($sheet['title'], 34, true, 0.15, $ink, $pageW, $yTitle);
+    $ops[] = pdf_flanked($sheet['subtitle'], 13, true, 0.8, $red, $soft, $pageW, $ySubtitle, 36);
+    $ops[] = pdf_centered($sheet['lead'], 12, false, 0.15, $soft, $pageW, $yLead);
+    $ops[] = pdf_centered($sheet['name'], 26, true, 0.2, $ink, $pageW, $yName);
+    $ops[] = pdf_name_rule($sheet['name'], 26, 0.2, $red, $pageW, $yRule);
+    $ops[] = pdf_centered($sheet['body'], 12, false, 0.05, $ink, $pageW, $yBody);
+    $ops[] = pdf_meta_block($sheet['code'], $sheet['date'], $red, $ink, $soft, $green, $pageW, $yFootRule, $yLabel, $yMeta);
+    $ops[] = pdf_centered('Sin validez oficial', 8, false, 0.6, $soft, $pageW, $yNote);
 
     $stream = implode("\n", $ops);
     $objects = [];
@@ -81,10 +97,141 @@ function certificate_pdf(array $sheet): string
     return $pdf;
 }
 
+function pdf_num(float $value): string
+{
+    return number_format($value, 2, '.', '');
+}
+
+function pdf_fill(string $color, float $x, float $y, float $w, float $h): string
+{
+    return $color . ' rg ' . pdf_num($x) . ' ' . pdf_num($y) . ' ' . pdf_num($w) . ' ' . pdf_num($h) . ' re f';
+}
+
+function pdf_stroke(string $color, float $width, float $x, float $y, float $w, float $h): string
+{
+    return $color . ' RG ' . pdf_num($width) . ' w ' . pdf_num($x) . ' ' . pdf_num($y) . ' ' . pdf_num($w) . ' ' . pdf_num($h) . ' re S';
+}
+
+function pdf_centered(string $text, float $size, bool $bold, float $tracking, string $color, float $pageW, float $y): string
+{
+    $text = trim($text);
+    if ($text === '') {
+        return '';
+    }
+    $drawSize = $size;
+    $width = pdf_text_width($text, $drawSize, $bold, $tracking);
+    $max = 640.0;
+    if ($width > $max && $width > 0) {
+        $drawSize = $size * ($max / $width);
+        $width = $max;
+    }
+    $x = ($pageW - $width) / 2;
+    $font = $bold ? 'F2' : 'F1';
+    return 'BT /' . $font . ' ' . pdf_num($drawSize) . ' Tf ' . $color . ' rg ' . pdf_num($tracking) . ' Tc 1 0 0 1 ' . pdf_num($x) . ' ' . pdf_num($y) . ' Tm ' . pdf_literal($text) . ' Tj ET';
+}
+
+function pdf_hline(string $color, float $width, float $x1, float $x2, float $y): string
+{
+    return $color . ' RG ' . pdf_num($width) . ' w ' . pdf_num($x1) . ' ' . pdf_num($y) . ' m ' . pdf_num($x2) . ' ' . pdf_num($y) . ' l S';
+}
+
+function pdf_diamond(string $color, float $cx, float $cy, float $r): string
+{
+    return $color . ' rg ' . pdf_num($cx) . ' ' . pdf_num($cy + $r) . ' m '
+        . pdf_num($cx + $r) . ' ' . pdf_num($cy) . ' l '
+        . pdf_num($cx) . ' ' . pdf_num($cy - $r) . ' l '
+        . pdf_num($cx - $r) . ' ' . pdf_num($cy) . ' l h f';
+}
+
+function pdf_corners(string $color, float $stroke, float $x, float $y, float $w, float $h, float $arm): string
+{
+    $paths = [
+        pdf_num($x) . ' ' . pdf_num($y + $arm) . ' m ' . pdf_num($x) . ' ' . pdf_num($y) . ' l ' . pdf_num($x + $arm) . ' ' . pdf_num($y) . ' l',
+        pdf_num($x + $w - $arm) . ' ' . pdf_num($y) . ' m ' . pdf_num($x + $w) . ' ' . pdf_num($y) . ' l ' . pdf_num($x + $w) . ' ' . pdf_num($y + $arm) . ' l',
+        pdf_num($x) . ' ' . pdf_num($y + $h - $arm) . ' m ' . pdf_num($x) . ' ' . pdf_num($y + $h) . ' l ' . pdf_num($x + $arm) . ' ' . pdf_num($y + $h) . ' l',
+        pdf_num($x + $w - $arm) . ' ' . pdf_num($y + $h) . ' m ' . pdf_num($x + $w) . ' ' . pdf_num($y + $h) . ' l ' . pdf_num($x + $w) . ' ' . pdf_num($y + $h - $arm) . ' l',
+    ];
+    return $color . ' RG ' . pdf_num($stroke) . " w 1 J 1 j\n" . implode("\n", $paths) . "\nS";
+}
+
+function pdf_ornament(float $cx, float $y, float $half, string $lineColor, string $diamondColor): string
+{
+    $gap = 9.0;
+    return pdf_hline($lineColor, 0.7, $cx - $half, $cx - $gap, $y)
+        . "\n" . pdf_diamond($diamondColor, $cx, $y, 3.2)
+        . "\n" . pdf_hline($lineColor, 0.7, $cx + $gap, $cx + $half, $y);
+}
+
+function pdf_flanked(string $text, float $size, bool $bold, float $tracking, string $color, string $ruleColor, float $pageW, float $y, float $ruleLen): string
+{
+    $text = trim($text);
+    $width = pdf_text_width($text, $size, $bold, $tracking);
+    $x = ($pageW - $width) / 2;
+    $mid = $y + ($size * 0.32);
+    $gap = 11.0;
+    return pdf_hline($ruleColor, 0.6, $x - $gap - $ruleLen, $x - $gap, $mid)
+        . "\n" . pdf_centered($text, $size, $bold, $tracking, $color, $pageW, $y)
+        . "\n" . pdf_hline($ruleColor, 0.6, $x + $width + $gap, $x + $width + $gap + $ruleLen, $mid);
+}
+
+function pdf_name_rule(string $name, float $size, float $tracking, string $color, float $pageW, float $y): string
+{
+    $width = pdf_text_width(trim($name), $size, true, $tracking);
+    $rule = min(320.0, max(168.0, $width + 28));
+    $x1 = ($pageW - $rule) / 2;
+    $x2 = $x1 + $rule;
+    return pdf_hline($color, 0.8, $x1, $x2, $y)
+        . "\n" . pdf_diamond($color, $x1, $y, 2.4)
+        . "\n" . pdf_diamond($color, $x2, $y, 2.4);
+}
+
+function pdf_meta_block(string $code, string $date, string $codeColor, string $dateColor, string $labelColor, string $ruleColor, float $pageW, float $ruleY, float $labelY, float $valueY): string
+{
+    $valueSize = 12.0;
+    $labelSize = 7.5;
+    $tracking = 0.45;
+    $codeWidth = pdf_text_width($code, $valueSize, true, $tracking);
+    $dateWidth = pdf_text_width($date, $valueSize, false, 0);
+    $serie = 'Serie';
+    $fecha = 'Fecha';
+    $serieWidth = pdf_text_width($serie, $labelSize, true, 1.3);
+    $fechaWidth = pdf_text_width($fecha, $labelSize, true, 1.3);
+    $col = max($codeWidth, $dateWidth, $serieWidth, $fechaWidth);
+    $gutter = 44.0;
+    $diamond = 3.0;
+    $total = ($col * 2) + $gutter;
+    $x = ($pageW - $total) / 2;
+    $codeX = $x + (($col - $codeWidth) / 2);
+    $dateX = $x + $col + $gutter + (($col - $dateWidth) / 2);
+    $diamondX = $x + $col + ($gutter / 2);
+    $rulePad = 28.0;
+    $ops = [
+        pdf_hline($ruleColor, 0.6, $x - $rulePad, $x + $total + $rulePad, $ruleY),
+        pdf_diamond($ruleColor, $diamondX, $ruleY, 2.6),
+        pdf_at($serie, $labelSize, true, 1.3, $labelColor, $codeX + (($codeWidth - $serieWidth) / 2), $labelY),
+        pdf_at($fecha, $labelSize, true, 1.3, $labelColor, $dateX + (($dateWidth - $fechaWidth) / 2), $labelY),
+        pdf_at($code, $valueSize, true, $tracking, $codeColor, $codeX, $valueY),
+        pdf_diamond($codeColor, $diamondX, $valueY + 4.2, $diamond),
+        pdf_at($date, $valueSize, false, 0, $dateColor, $dateX, $valueY),
+    ];
+    return implode("\n", $ops);
+}
+
+function pdf_at(string $text, float $size, bool $bold, float $tracking, string $color, float $x, float $y): string
+{
+    $text = trim($text);
+    if ($text === '') {
+        return '';
+    }
+    $font = $bold ? 'F2' : 'F1';
+    return 'BT /' . $font . ' ' . pdf_num($size) . ' Tf ' . $color . ' rg ' . pdf_num($tracking) . ' Tc 1 0 0 1 ' . pdf_num($x) . ' ' . pdf_num($y) . ' Tm ' . pdf_literal($text) . ' Tj ET';
+}
+
 function send_certificate_pdf(string $filename, string $pdf): void
 {
     header('Content-Type: application/pdf');
     header('Content-Disposition: inline; filename="' . $filename . '"');
+    header('Cache-Control: no-store');
     header('Content-Length: ' . (string) strlen($pdf));
     echo $pdf;
     exit;
@@ -112,8 +259,9 @@ function pdf_text_width(string $text, float $size, bool $bold, float $tracking):
         $units += pdf_glyph_width(ord($encoded[$i]), $bold);
         $chars++;
     }
-    $extra = $chars > 1 ? ($chars - 1) * $tracking * 1000 : 0;
-    return ($units + $extra) * $size / 1000;
+    $glyph = $units * $size / 1000;
+    $extra = $chars > 1 ? ($chars - 1) * $tracking : 0;
+    return $glyph + $extra;
 }
 
 function pdf_glyph_width(int $code, bool $bold): int
