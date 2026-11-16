@@ -3,20 +3,15 @@
 declare(strict_types=1);
 
 return [
-    'base_path' => '/aprendiendoitaliano',
-    'app_url' => 'http://127.0.0.1/aprendiendoitaliano',
+    'base_path' => '/learn/italiano',
+    'app_url' => 'https://jpromano.net/learn/italiano',
     'db' => [
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'port' => 3306,
         'name' => 'aprendiendoitaliano',
         'user' => 'root',
         'pass' => '',
         'charset' => 'utf8mb4',
-    ],
-    'google' => [
-        'client_id' => '',
-        'client_secret' => '',
-        'redirect' => 'http://127.0.0.1/aprendiendoitaliano/index.php/auth/google/callback',
     ],
     'seed_key' => 'change-me',
 ];

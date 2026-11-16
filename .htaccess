@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /aprendiendoitaliano/
+RewriteBase /learn/italiano/
 
 RewriteRule ^storage/ - [F,L]
 RewriteRule ^includes/ - [F,L]
